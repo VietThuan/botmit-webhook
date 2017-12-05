@@ -8,4 +8,10 @@ class BirthdayService:
                  "EmployeeId": "55F87A13-2416-4D8E-8B42-903FC6C071D5"}]
 
     def get_lasted_birthday_message(self, com_code, user_id, orgid):
-        return 'chúc mừng sinh nhật em! Chúc em luôn mạnh khỏe, hạnh phúc và luôn thành công trong công việc.'
+
+        tmp = 1
+
+
+        if tmp != 0:
+            return 'chúc mừng sinh nhật em! Chúc em luôn mạnh khỏe, hạnh phúc và luôn thành công trong công việc.'
+        return

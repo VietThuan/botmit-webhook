@@ -63,12 +63,33 @@ def process_queue(session_id):
     repaced = s.format(CLIENT_ACCESS_TOKEN, 'event_co_mau_tin', session_id)
     print(pycommon.execute_curl(repaced))
 
+def un_process_queue(session_id):
+    import time
+    time.sleep(1)
+    s = 'curl \
+           -H "Authorization: Bearer {}" \
+           "https://api.dialogflow.com/v1/query?v=20150910&e={}&timezone=Asia/Saigon&lang=en&sessionId={}"'
+    repaced = s.format(CLIENT_ACCESS_TOKEN, 'event_chua_co_mau_tin', session_id)
+    print(pycommon.execute_curl(repaced))
 
-def hoi_sinh_nhat_co(action, req):
+
+
+def hoi_sinh_nhat_co(action, req):                                                  #G
     com_code, user_id, orgid = get_param_user_info(req)
     lasted_mesage = service.get_lasted_birthday_message(com_code, user_id, orgid)
     if lasted_mesage is None:
-        pass
+
+# Binh code
+
+        t = threading.Thread(target=un_process_queue, args=(req['sessionId'],))
+        t.daemon = True
+        t.start()
+
+        req['result']['fulfillment']['speech'] = "Em có sẵn rất nhiều tin nhắn mẫu. Anh/chị có muốn sử dụng không ạ?"
+        return req
+
+# End Binh code
+
     else:
 
         t = threading.Thread(target=process_queue, args=(req['sessionId'],))
