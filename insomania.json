@@ -1,0 +1,2296 @@
+{
+	"_type": "export",
+	"__export_format": 3,
+	"__export_date": "2017-12-05T08:17:01.259Z",
+	"__export_source": "insomnia.desktop.app:v5.11.7",
+	"resources": [
+		{
+			"_id": "wrk_d0da686b398c455c8193601269d02e8a",
+			"parentId": null,
+			"modified": 1510744038640,
+			"created": 1502425211822,
+			"name": "Insomnia",
+			"description": "",
+			"_type": "workspace"
+		},
+		{
+			"_id": "env_b90d1fd896ce4ffdbad939de704e5122",
+			"parentId": "wrk_d0da686b398c455c8193601269d02e8a",
+			"modified": 1511426240212,
+			"created": 1502506759388,
+			"name": "Base Environment",
+			"data": {
+				"base_url": "117.6.16.176"
+			},
+			"color": null,
+			"isPrivate": false,
+			"_type": "environment"
+		},
+		{
+			"_id": "jar_52328aac69a9439a904eae1fbe350aed",
+			"parentId": "wrk_d0da686b398c455c8193601269d02e8a",
+			"modified": 1512461279488,
+			"created": 1502506782004,
+			"name": "Default Jar",
+			"cookies": [
+				{
+					"key": "session_id",
+					"value": "b65fb23c535f8cf7450b28b439fd085cba3cfe53",
+					"expires": "2017-12-05T09:07:59.000Z",
+					"maxAge": 3600,
+					"domain": "localhost",
+					"path": "/",
+					"hostOnly": true,
+					"creation": "2017-08-12T03:00:12.104Z",
+					"lastAccessed": "2017-12-05T08:07:59.488Z",
+					"id": "06575137655840524"
+				},
+				{
+					"key": "session_id",
+					"value": "9d75ec90d5015501aba81cc4e18f9c587623411e",
+					"expires": "2017-12-05T03:04:12.000Z",
+					"maxAge": 3600,
+					"domain": "117.6.16.176",
+					"path": "/",
+					"hostOnly": true,
+					"creation": "2017-08-15T02:22:39.814Z",
+					"lastAccessed": "2017-12-05T02:04:12.730Z",
+					"id": "7362160944119711"
+				},
+				{
+					"key": "session_id",
+					"value": "89936f02036b81b0aa89d1fd06a26e8b7325da95",
+					"expires": "2017-11-30T05:57:44.000Z",
+					"maxAge": 3600,
+					"domain": "ai.misa.com.vn",
+					"path": "/",
+					"hostOnly": true,
+					"creation": "2017-09-27T02:19:23.429Z",
+					"lastAccessed": "2017-11-30T04:55:05.935Z",
+					"id": "8221006001185767"
+				},
+				{
+					"key": "session_id",
+					"value": "c8634a25aa5b75e5bfd6f149ee07fe9cfe52448f",
+					"expires": "2017-10-16T08:08:17.000Z",
+					"maxAge": 3600,
+					"domain": "ai.amis.vn",
+					"path": "/",
+					"hostOnly": true,
+					"creation": "2017-09-27T02:20:00.017Z",
+					"lastAccessed": "2017-10-16T07:04:18.973Z",
+					"id": "17813730578660047"
+				},
+				{
+					"key": "ASP.NET_SessionId",
+					"value": "wcg0weh5qyqnbd245whcbq0y",
+					"domain": "ai.misa.cukcuk.vn",
+					"path": "/",
+					"httpOnly": true,
+					"hostOnly": true,
+					"creation": "2017-09-28T01:42:03.907Z",
+					"lastAccessed": "2017-09-28T01:42:03.907Z",
+					"id": "8006719875063462"
+				},
+				{
+					"key": "session_id",
+					"value": "05ef893b3e0510087908731d598ea17b68aed200",
+					"expires": "2017-11-22T03:15:18.000Z",
+					"maxAge": 3600,
+					"domain": "ai.cukcuk.vn",
+					"path": "/",
+					"hostOnly": true,
+					"creation": "2017-09-28T01:42:11.605Z",
+					"lastAccessed": "2017-11-22T02:17:48.608Z",
+					"id": "008631066995318903"
+				},
+				{
+					"key": "session_id",
+					"value": "6d1f1cf8fc879e614ef21973782bdf3ba8bab6c5",
+					"expires": "2017-11-11T04:19:14.000Z",
+					"maxAge": 3600,
+					"domain": "0.0.0.0",
+					"path": "/",
+					"hostOnly": true,
+					"creation": "2017-10-04T10:35:33.916Z",
+					"lastAccessed": "2017-11-11T03:19:14.725Z",
+					"id": "8165895194597812"
+				},
+				{
+					"key": "ASP.NET_SessionId",
+					"value": "ch52ngos5a0sjldg1pthzrsu",
+					"domain": "apicfo.amis.vn",
+					"path": "/",
+					"httpOnly": true,
+					"hostOnly": true,
+					"creation": "2017-10-06T02:38:32.468Z",
+					"lastAccessed": "2017-10-06T02:38:32.468Z",
+					"id": "6063770465834526"
+				},
+				{
+					"key": "ASP.NET_SessionId",
+					"value": "o12bukn1sfboj1pkyk3sm4gl",
+					"domain": "apitestcfo.amis.vn",
+					"path": "/",
+					"httpOnly": true,
+					"hostOnly": true,
+					"creation": "2017-10-16T01:22:13.966Z",
+					"lastAccessed": "2017-10-16T01:22:13.966Z",
+					"id": "15198045641698266"
+				},
+				{
+					"key": "ASP.NET_SessionId",
+					"value": "b4llsu0w4ytsyejbgllhoy13",
+					"domain": "apicfotest.amis.vn",
+					"path": "/",
+					"httpOnly": true,
+					"hostOnly": true,
+					"creation": "2017-10-16T01:22:28.419Z",
+					"lastAccessed": "2017-10-16T01:22:28.419Z",
+					"id": "9496978052258054"
+				},
+				{
+					"key": "session_id",
+					"value": "b1bd74ce9b8f46087ce59b063105f0049eb9f0ab",
+					"expires": "2017-11-17T09:49:52.000Z",
+					"maxAge": 3600,
+					"domain": "127.0.0.1",
+					"path": "/",
+					"hostOnly": true,
+					"creation": "2017-11-17T08:39:41.984Z",
+					"lastAccessed": "2017-11-17T08:49:54.147Z",
+					"id": "062375994319994854"
+				},
+				{
+					"key": "session_id",
+					"value": "607036be7025a0029034790fb98eef97d554bc9a",
+					"expires": "2017-11-27T11:57:06.000Z",
+					"maxAge": 3600,
+					"domain": "nludata.misa.com.vn",
+					"path": "/",
+					"hostOnly": true,
+					"creation": "2017-11-27T10:49:15.100Z",
+					"lastAccessed": "2017-11-27T10:53:35.212Z",
+					"id": "3122350808855465"
+				}
+			],
+			"_type": "cookie_jar"
+		},
+		{
+			"_id": "fld_0ed9907496f54e9285d1b90c9c73cabb",
+			"parentId": "wrk_d0da686b398c455c8193601269d02e8a",
+			"modified": 1506407638170,
+			"created": 1506407638170,
+			"name": "rasa",
+			"description": "",
+			"environment": {},
+			"metaSortKey": -1506407638170,
+			"_type": "request_group"
+		},
+		{
+			"_id": "fld_507c82c9e4a9405bb6da864227fc64e9",
+			"parentId": "wrk_d0da686b398c455c8193601269d02e8a",
+			"modified": 1506407638186,
+			"created": 1506407638186,
+			"name": "Sme bot",
+			"description": "",
+			"environment": {},
+			"metaSortKey": -1506407638186,
+			"_type": "request_group"
+		},
+		{
+			"_id": "fld_2442d410f6644ed2a5fd356c6b09d68d",
+			"parentId": "wrk_d0da686b398c455c8193601269d02e8a",
+			"modified": 1506410493687,
+			"created": 1506410455692,
+			"name": "Cukcuk bot",
+			"description": "",
+			"environment": {},
+			"metaSortKey": -1506410455692,
+			"_type": "request_group"
+		},
+		{
+			"_id": "fld_c2ef8c4dd7ad47b4b974ab0b9c88b160",
+			"parentId": "wrk_d0da686b398c455c8193601269d02e8a",
+			"modified": 1508128188077,
+			"created": 1508128188077,
+			"name": "qlcb",
+			"description": "",
+			"environment": {},
+			"metaSortKey": -1508128188077,
+			"_type": "request_group"
+		},
+		{
+			"_id": "fld_e91e726db91a45acaddc43453b6135da",
+			"parentId": "wrk_d0da686b398c455c8193601269d02e8a",
+			"modified": 1508128188099,
+			"created": 1508128188099,
+			"name": "Bot Service",
+			"description": "",
+			"environment": {},
+			"metaSortKey": -1508128188099,
+			"_type": "request_group"
+		},
+		{
+			"_id": "fld_ef5c20140eb34c1dbfeb8b297e509289",
+			"parentId": "wrk_d0da686b398c455c8193601269d02e8a",
+			"modified": 1508904039451,
+			"created": 1508904039451,
+			"name": "bot-gateway",
+			"description": "",
+			"environment": {},
+			"metaSortKey": -1508904039451,
+			"_type": "request_group"
+		},
+		{
+			"_id": "fld_a82d50a7fdfc4bdeb1517292332b4057",
+			"parentId": "wrk_d0da686b398c455c8193601269d02e8a",
+			"modified": 1511426526586,
+			"created": 1510192536800,
+			"name": "rasa",
+			"description": "",
+			"environment": {},
+			"metaSortKey": -1508904039551,
+			"_type": "request_group"
+		},
+		{
+			"_id": "fld_8aa6f8af7c1246078815c5b2d29395f0",
+			"parentId": "wrk_d0da686b398c455c8193601269d02e8a",
+			"modified": 1511426519880,
+			"created": 1510886614621,
+			"name": "Bot data",
+			"description": "",
+			"environment": {},
+			"metaSortKey": -1508904039501,
+			"_type": "request_group"
+		},
+		{
+			"_id": "fld_9fa7eb38028747c8979651ea8c616617",
+			"parentId": "wrk_d0da686b398c455c8193601269d02e8a",
+			"modified": 1511252277128,
+			"created": 1511252270373,
+			"name": "Mshop",
+			"description": "",
+			"environment": {},
+			"metaSortKey": -1506407638178,
+			"_type": "request_group"
+		},
+		{
+			"_id": "fld_3d8ac8d0d2ab4904a1e61f6e985e196b",
+			"parentId": "wrk_d0da686b398c455c8193601269d02e8a",
+			"modified": 1511315582305,
+			"created": 1511315572196,
+			"name": "cukcuk manager",
+			"description": "",
+			"environment": {},
+			"metaSortKey": -1507269321884.5,
+			"_type": "request_group"
+		},
+		{
+			"_id": "req_b90d331381ef4376be802b2ba466854f",
+			"parentId": "wrk_d0da686b398c455c8193601269d02e8a",
+			"modified": 1512035348675,
+			"created": 1512035231437,
+			"url": "{{ base_url  }}:9000/get_last_bar",
+			"name": "get_last_bar",
+			"description": "",
+			"method": "GET",
+			"body": {
+				"mimeType": "application/json",
+				"text": ""
+			},
+			"parameters": [],
+			"headers": [
+				{
+					"name": "Content-Type",
+					"value": "application/json",
+					"id": "pair_fb36cd0e2529423197d30395aaad1ca9"
+				}
+			],
+			"authentication": {},
+			"metaSortKey": -1508904039601,
+			"settingStoreCookies": true,
+			"settingSendCookies": true,
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"_type": "request"
+		},
+		{
+			"_id": "req_50d69f2ad53d48a6be64cf39c79fbeb9",
+			"parentId": "wrk_d0da686b398c455c8193601269d02e8a",
+			"modified": 1512035723094,
+			"created": 1512035352537,
+			"url": "{{ base_url  }}:9000/data/get_count",
+			"name": "get_count",
+			"description": "",
+			"method": "GET",
+			"body": {
+				"mimeType": "application/json",
+				"text": ""
+			},
+			"parameters": [],
+			"headers": [
+				{
+					"name": "Content-Type",
+					"value": "application/json",
+					"id": "pair_fb36cd0e2529423197d30395aaad1ca9"
+				}
+			],
+			"authentication": {},
+			"metaSortKey": -1508904039576,
+			"settingStoreCookies": true,
+			"settingSendCookies": true,
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"_type": "request"
+		},
+		{
+			"_id": "req_063687a6c4394455a78283d4d43fbbad",
+			"parentId": "wrk_d0da686b398c455c8193601269d02e8a",
+			"modified": 1512041162403,
+			"created": 1512035938618,
+			"url": "{{ base_url  }}:9000/account/get_profit_loss",
+			"name": "get_current_value",
+			"description": "",
+			"method": "GET",
+			"body": {
+				"mimeType": "application/json",
+				"text": ""
+			},
+			"parameters": [],
+			"headers": [
+				{
+					"name": "Content-Type",
+					"value": "application/json",
+					"id": "pair_fb36cd0e2529423197d30395aaad1ca9"
+				}
+			],
+			"authentication": {},
+			"metaSortKey": -1508904039563.5,
+			"settingStoreCookies": true,
+			"settingSendCookies": true,
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"_type": "request"
+		},
+		{
+			"_id": "req_07fa02aa26054315b4d3cbbcfd6679b7",
+			"parentId": "wrk_d0da686b398c455c8193601269d02e8a",
+			"modified": 1512113997472,
+			"created": 1512113961249,
+			"url": "{{ base_url  }}:7050/webhook",
+			"name": "webhook",
+			"description": "",
+			"method": "POST",
+			"body": {
+				"mimeType": "application/json",
+				"text": "{\"key\":2121}"
+			},
+			"parameters": [],
+			"headers": [
+				{
+					"name": "Content-Type",
+					"value": "application/json",
+					"id": "pair_fb36cd0e2529423197d30395aaad1ca9"
+				}
+			],
+			"authentication": {},
+			"metaSortKey": -1508904039588.5,
+			"settingStoreCookies": true,
+			"settingSendCookies": true,
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"_type": "request"
+		},
+		{
+			"_id": "env_1dc78b7e67f8478492cc8144a65ae74d",
+			"parentId": "env_b90d1fd896ce4ffdbad939de704e5122",
+			"modified": 1511426244261,
+			"created": 1511426156708,
+			"name": "server",
+			"data": {
+				"base_url": "117.6.16.176"
+			},
+			"color": null,
+			"isPrivate": false,
+			"_type": "environment"
+		},
+		{
+			"_id": "env_091be656e4ee48ca9104ffced28cffaf",
+			"parentId": "env_b90d1fd896ce4ffdbad939de704e5122",
+			"modified": 1511851686313,
+			"created": 1511426165366,
+			"name": "local",
+			"data": {
+				"base_url": "localhost"
+			},
+			"color": "#3400ff",
+			"isPrivate": false,
+			"_type": "environment"
+		},
+		{
+			"_id": "req_d315a337354a44aca6544cb29a50f121",
+			"parentId": "fld_0ed9907496f54e9285d1b90c9c73cabb",
+			"modified": 1506407638138,
+			"created": 1506407638138,
+			"url": "http://localhost:5000/status",
+			"name": "status",
+			"description": "",
+			"method": "GET",
+			"body": {
+				"mimeType": "application/json",
+				"text": "{\n  \"rasa_nlu_data\": {\n    \"common_examples\": [\n      {\n        \"text\": \"hey\",\n        \"intent\": \"greet\",\n        \"entities\": []\n      },\n      {\n        \"text\": \"dear sir\",\n        \"intent\": \"greet\",\n        \"entities\": []\n      },\n      {\n        \"text\": \"i'm looking for a place to eat\",\n        \"intent\": \"restaurant_search\",\n        \"entities\": []\n      },\n      {\n        \"text\": \"i'm looking for a place in the north of town\",\n        \"intent\": \"restaurant_search\",\n        \"entities\": [\n          {\n            \"start\": 31,\n            \"end\": 36,\n            \"value\": \"north\",\n            \"entity\": \"location\"\n          }\n        ]\n      },\n      {\n        \"text\": \"show me a mexican place in the centre\",\n        \"intent\": \"restaurant_search\",\n        \"entities\": [\n          {\n            \"start\": 31,\n            \"end\": 37,\n            \"value\": \"centre\",\n            \"entity\": \"location\"\n          },\n          {\n            \"start\": 10,\n            \"end\": 17,\n            \"value\": \"mexican\",\n            \"entity\": \"cuisine\"\n          }\n        ]\n      }\n    ]\n  }\n}\n"
+			},
+			"parameters": [
+				{
+					"name": "name",
+					"value": "new_model"
+				}
+			],
+			"headers": [
+				{
+					"name": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"authentication": {
+				"username": "",
+				"password": ""
+			},
+			"metaSortKey": -1506407638138,
+			"settingStoreCookies": true,
+			"settingSendCookies": true,
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"_type": "request"
+		},
+		{
+			"_id": "req_bcb977afa8b84f838d2375d6434ab3bf",
+			"parentId": "fld_0ed9907496f54e9285d1b90c9c73cabb",
+			"modified": 1506407638143,
+			"created": 1506407638143,
+			"url": "http://117.6.16.176:5000/config",
+			"name": "config",
+			"description": "",
+			"method": "GET",
+			"body": {
+				"mimeType": "application/json",
+				"text": "{\n  \"rasa_nlu_data\": {\n    \"common_examples\": [\n      {\n        \"text\": \"hey\",\n        \"intent\": \"greet\",\n        \"entities\": []\n      },\n      {\n        \"text\": \"dear sir\",\n        \"intent\": \"greet\",\n        \"entities\": []\n      },\n      {\n        \"text\": \"i'm looking for a place to eat\",\n        \"intent\": \"restaurant_search\",\n        \"entities\": []\n      },\n      {\n        \"text\": \"i'm looking for a place in the north of town\",\n        \"intent\": \"restaurant_search\",\n        \"entities\": [\n          {\n            \"start\": 31,\n            \"end\": 36,\n            \"value\": \"north\",\n            \"entity\": \"location\"\n          }\n        ]\n      },\n      {\n        \"text\": \"show me a mexican place in the centre\",\n        \"intent\": \"restaurant_search\",\n        \"entities\": [\n          {\n            \"start\": 31,\n            \"end\": 37,\n            \"value\": \"centre\",\n            \"entity\": \"location\"\n          },\n          {\n            \"start\": 10,\n            \"end\": 17,\n            \"value\": \"mexican\",\n            \"entity\": \"cuisine\"\n          }\n        ]\n      }\n    ]\n  }\n}\n"
+			},
+			"parameters": [
+				{
+					"name": "name",
+					"value": "new_model"
+				}
+			],
+			"headers": [
+				{
+					"name": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"authentication": {
+				"username": "",
+				"password": ""
+			},
+			"metaSortKey": -1506407638143,
+			"settingStoreCookies": true,
+			"settingSendCookies": true,
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"_type": "request"
+		},
+		{
+			"_id": "req_fcad480c067d49628332f53a9fff067b",
+			"parentId": "fld_0ed9907496f54e9285d1b90c9c73cabb",
+			"modified": 1506407638153,
+			"created": 1506407638153,
+			"url": "http://localhost:5000/version",
+			"name": "version",
+			"description": "",
+			"method": "GET",
+			"body": {
+				"mimeType": "application/json",
+				"text": "{\n  \"rasa_nlu_data\": {\n    \"common_examples\": [\n      {\n        \"text\": \"hey\",\n        \"intent\": \"greet\",\n        \"entities\": []\n      },\n      {\n        \"text\": \"dear sir\",\n        \"intent\": \"greet\",\n        \"entities\": []\n      },\n      {\n        \"text\": \"i'm looking for a place to eat\",\n        \"intent\": \"restaurant_search\",\n        \"entities\": []\n      },\n      {\n        \"text\": \"i'm looking for a place in the north of town\",\n        \"intent\": \"restaurant_search\",\n        \"entities\": [\n          {\n            \"start\": 31,\n            \"end\": 36,\n            \"value\": \"north\",\n            \"entity\": \"location\"\n          }\n        ]\n      },\n      {\n        \"text\": \"show me a mexican place in the centre\",\n        \"intent\": \"restaurant_search\",\n        \"entities\": [\n          {\n            \"start\": 31,\n            \"end\": 37,\n            \"value\": \"centre\",\n            \"entity\": \"location\"\n          },\n          {\n            \"start\": 10,\n            \"end\": 17,\n            \"value\": \"mexican\",\n            \"entity\": \"cuisine\"\n          }\n        ]\n      }\n    ]\n  }\n}\n"
+			},
+			"parameters": [
+				{
+					"name": "name",
+					"value": "new_model"
+				}
+			],
+			"headers": [
+				{
+					"name": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"authentication": {
+				"username": "",
+				"password": ""
+			},
+			"metaSortKey": -1506407638153,
+			"settingStoreCookies": true,
+			"settingSendCookies": true,
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"_type": "request"
+		},
+		{
+			"_id": "req_4bf4bc9a5cbf4c5cbadfe46f2c7b28b8",
+			"parentId": "fld_0ed9907496f54e9285d1b90c9c73cabb",
+			"modified": 1510308672202,
+			"created": 1506407638159,
+			"url": "localhost:6000/train",
+			"name": "train",
+			"description": "",
+			"method": "POST",
+			"body": {
+				"mimeType": "text/plain",
+				"text": "{\n  \"rasa_nlu_data\": {\n    \"regex_features\": [],\n    \"common_examples\": [\n      {\n        \"text\": \"chi phí hiện nay của công ty là bao nhiêu\",\n        \"intent\": \"hoi_chi_phi\",\n        \"response\": \"{hoi_chi_phi}\"\n      },\n      {\n        \"text\": \"hãy cho tôi biết chi phí phát sinh hiện nay là bao nhiêu\",\n        \"intent\": \"hoi_chi_phi\",\n        \"response\": \"{hoi_chi_phi}\"\n      },\n      {\n        \"text\": \"tính đến nay công ty đã phát sinh bao nhiêu chi phí\",\n        \"intent\": \"hoi_chi_phi1\",\n        \"response\": \"{hoi_chi_phi}\"\n      }\n    ],\n    \"entity_synonyms\": [\n      {\n        \"synonyms\": [\n          \"năm tới\"\n        ],\n        \"value\": \"năm sau\"\n      },\n      {\n        \"synonyms\": [\n          \"tháng tới\"\n        ],\n        \"value\": \"tháng sau\"\n      },\n      {\n        \"synonyms\": [\n          \"tuần tới\"\n        ],\n        \"value\": \"tuần sau\"\n      },\n      {\n        \"synonyms\": [\n          \"ngày tới\",\n          \"hôm sau\"\n        ],\n        \"value\": \"ngày mai\"\n      },\n      {\n        \"synonyms\": [\n          \"quý tới\"\n        ],\n        \"value\": \"quý sau\"\n      },\n      {\n        \"synonyms\": [\n          \"hôm này\"\n        ],\n        \"value\": \"hôm nay\"\n      },\n      {\n        \"synonyms\": [\n          \"năm này\"\n        ],\n        \"value\": \"năm nay\"\n      }\n    ]\n  }\n}"
+			},
+			"parameters": [
+				{
+					"name": "project",
+					"value": "abc",
+					"id": "pair_52f90f88485947f9bad9d219cea8668c"
+				}
+			],
+			"headers": [
+				{
+					"name": "Content-Type",
+					"value": "text/plain",
+					"id": "pair_ae361aae305f4cd0be5f61f5f22a0cf1"
+				}
+			],
+			"authentication": {
+				"username": "",
+				"password": ""
+			},
+			"metaSortKey": -1506407638159,
+			"settingStoreCookies": true,
+			"settingSendCookies": true,
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"_type": "request"
+		},
+		{
+			"_id": "req_e5bfd98efca9473eb7a8b78a6f52dac2",
+			"parentId": "fld_0ed9907496f54e9285d1b90c9c73cabb",
+			"modified": 1507889548620,
+			"created": 1506407638167,
+			"url": "http://117.6.16.176:89/parse",
+			"name": "q",
+			"description": "",
+			"method": "GET",
+			"body": {
+				"mimeType": "application/json",
+				"text": "{}"
+			},
+			"parameters": [
+				{
+					"name": "q",
+					"value": "Doanh thu hiện nay thế nào em ơi ",
+					"id": "pair_411fcdf3089f4aa6a5e760b47f99b975"
+				},
+				{
+					"name": "",
+					"value": "",
+					"id": "pair_cd0fc3d2618f4cc990c1139531963059"
+				},
+				{
+					"name": "model",
+					"value": "model_20171013-095831",
+					"id": "pair_85b40a17a1ad4ad9aa72f94a19f3defa"
+				}
+			],
+			"headers": [
+				{
+					"name": "Content-Type",
+					"value": "application/json",
+					"id": "pair_1a6428f9056f4cccac9cd9831535005f"
+				}
+			],
+			"authentication": {
+				"username": "",
+				"password": ""
+			},
+			"metaSortKey": -1506407638167,
+			"settingStoreCookies": true,
+			"settingSendCookies": true,
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"_type": "request"
+		},
+		{
+			"_id": "req_a4d23077c6514dd79660352bc9a2c7dd",
+			"parentId": "fld_507c82c9e4a9405bb6da864227fc64e9",
+			"modified": 1508138388362,
+			"created": 1506407638172,
+			"url": "http://localhost:8003/bot",
+			"name": "sme bot test",
+			"description": "",
+			"method": "POST",
+			"body": {
+				"mimeType": "application/json",
+				"text": "{\n\"Revenue\":{\"tháng này\":-200000},\n\"Expense\":{\"tháng này\":30000 },\n\"Benefit\":{\"tháng này\":-120000 },\n\"Cash\":{\"tháng này\":100000 },\n\"Banking\":{\"tháng này\":0},\n\"Receivable\":{\"tháng này\":0 },\n\"Payable\":{\"tháng này\":0 },\n\"Stock\":{\"tháng này\":0 }\n}"
+			},
+			"parameters": [
+				{
+					"name": "message",
+					"value": "doanh số hôm nay thế nào ",
+					"id": "pair_a377535314344dfb9b9b1ae277b53ba3"
+				}
+			],
+			"headers": [
+				{
+					"name": "Token",
+					"value": "6cfcbc64-0dfe-45b1-b860-5a0aef7ac829",
+					"id": "pair_c01db5a03dab488ca784f2e1742fb1a9"
+				},
+				{
+					"name": "CompanyCode",
+					"value": "Demo",
+					"id": "pair_618ad7998b5347099313d2835aa54eae"
+				},
+				{
+					"name": "BranchID",
+					"value": "00000000-0000-0000-0000-000000000000",
+					"id": "pair_4249a2fcb97940d69f3087fce5ade5b3"
+				},
+				{
+					"name": "Gender",
+					"value": "1",
+					"id": "pair_c2d102f31ca848c4988bf47f5b239f93"
+				},
+				{
+					"name": "UserID",
+					"value": "ff187913-99e1-4245-9d04-cd02d5fcdc65",
+					"id": "pair_ae1870d4a1bf44f5a8301ae07ae48e18"
+				},
+				{
+					"name": "Content-Type",
+					"value": "application/json",
+					"id": "pair_532d44dc2fe74474be6c2b6641e955a8"
+				}
+			],
+			"authentication": {
+				"username": "",
+				"password": ""
+			},
+			"metaSortKey": -1506407638172,
+			"settingStoreCookies": true,
+			"settingSendCookies": true,
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"_type": "request"
+		},
+		{
+			"_id": "req_83d0d79ee5a145cbb128669ddcbd67a1",
+			"parentId": "fld_507c82c9e4a9405bb6da864227fc64e9",
+			"modified": 1508138378712,
+			"created": 1506407638176,
+			"url": "https://testapicfo.amis.vn/api/summarydata",
+			"name": "summarydata",
+			"description": "",
+			"method": "POST",
+			"body": {
+				"mimeType": "application/json",
+				"text": "{\n\"UserID\":\"ff187913-99e1-4245-9d04-cd02d5fcdc65\", \n\"CompanyCode\": \"Test\", \n\"OrganizationUnitID\": \"00000000-0000-0000-0000-000000000000\",\n\"Token\": \"55F87A13-2416-4D8E-8B42-903FC6C07DD5\",\n\"Items\": [{\"Period\": 3, \"Item\": \"Cash\"},{\"Period\": 1, \"Item\": \"Benefit\"}]\n}"
+			},
+			"parameters": [],
+			"headers": [
+				{
+					"name": "Token",
+					"value": "6cfcbc64-0dfe-45b1-b860-5a0aef7ac829",
+					"id": "pair_08702c0624c34ded94d2ae5c20558499"
+				},
+				{
+					"name": "CompanyCode",
+					"value": "testamis2",
+					"id": "pair_daceec884dc242ea9922a5c3e3556d66"
+				},
+				{
+					"name": "BranchID",
+					"value": "00000000-0000-0000-0000-000000000000",
+					"id": "pair_e129841fe7344d52b20089d8f19b8a43"
+				},
+				{
+					"name": "UserId",
+					"value": "00000000-0000-0000-0000-000000000000",
+					"id": "pair_1cbd4e65d7c14dbfb4f0bed7d695ed0c"
+				},
+				{
+					"name": "Content-Type",
+					"value": "application/json",
+					"id": "pair_31e431742d284c3fb3dd824f8ef538c4"
+				}
+			],
+			"authentication": {
+				"username": "",
+				"password": ""
+			},
+			"metaSortKey": -1506407638176,
+			"settingStoreCookies": true,
+			"settingSendCookies": true,
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"_type": "request"
+		},
+		{
+			"_id": "req_8917ae70bd6c4f84869b1e80d2903942",
+			"parentId": "fld_507c82c9e4a9405bb6da864227fc64e9",
+			"modified": 1512461212495,
+			"created": 1506407638178,
+			"url": "{{ base_url  }}:10000/bot_v2",
+			"name": "sme bot",
+			"description": "",
+			"method": "GET",
+			"body": {
+				"mimeType": "application/json",
+				"text": "{}"
+			},
+			"parameters": [
+				{
+					"name": "message",
+					"value": "hôm nay sinh nhật ai ",
+					"id": "pair_3f5e0e9ee5e64945a0a78c396c40ca8e"
+				},
+				{
+					"name": "",
+					"value": "hôm nay sinh nhật ai ",
+					"id": "pair_59af5681706f49d5a9a4121c1fe24859"
+				},
+				{
+					"name": "",
+					"value": "có",
+					"id": "pair_fbe89509bfb84b838f8f32ba830d5ec9"
+				}
+			],
+			"headers": [
+				{
+					"name": "Token",
+					"value": "6cfcbc64-0dfe-45b1-b860-5a0aef7ac829",
+					"id": "pair_30ce581880dc4f1d8808eef31b356dad"
+				},
+				{
+					"name": "CompanyCode",
+					"value": "misajsc",
+					"id": "pair_1733d9460a8d4d3fac8da2cec4efa98f"
+				},
+				{
+					"name": "BranchID",
+					"value": "00000000-0000-0000-0000-000000000000",
+					"id": "pair_b67c54d478484ff5b85f3a3980a34289"
+				},
+				{
+					"name": "Gender",
+					"value": "0",
+					"id": "pair_c1e1edea748f48b69f4ab3a850c258a5"
+				},
+				{
+					"name": "UserID",
+					"value": " 27B9659B-01BE-4304-9AD4-AFADF024D4C5",
+					"id": "pair_e3c67c92edac40bdace5f96c9e186ad2"
+				},
+				{
+					"name": "Content-Type",
+					"value": "application/json",
+					"id": "pair_749f3b891fda43b394e12eb5bea7d039"
+				},
+				{
+					"name": "SessionId",
+					"value": "2",
+					"id": "pair_0c44b8a808464394a97fb3deb953f27d"
+				},
+				{
+					"name": "",
+					"value": "",
+					"id": "pair_954bdc45c507402abe17b229c9d8f905"
+				}
+			],
+			"authentication": {
+				"username": "",
+				"password": ""
+			},
+			"metaSortKey": -1506407638178,
+			"settingStoreCookies": true,
+			"settingSendCookies": true,
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"_type": "request"
+		},
+		{
+			"_id": "req_966e94c7f6ed40c39a47a8aa4639acdc",
+			"parentId": "fld_507c82c9e4a9405bb6da864227fc64e9",
+			"modified": 1512371234290,
+			"created": 1506915100726,
+			"url": "https://testapicfo.amis.vn/api/StatisticNumberEmployee",
+			"name": "StatisticNumberEmployee",
+			"description": "âaa",
+			"method": "POST",
+			"body": {
+				"mimeType": "application/json",
+				"text": "{\n\"UserID\":\"8e5fd60e-b93f-4595-8027-b9de55b2de87\", \n\"CompanyCode\": \"testamis2\", \n\"OrganizationUnitID\": \"00000000-0000-0000-0000-000000000000\",\n\"Token\": \"55F87A13-2416-4D8E-8B42-903FC6C07DD5\",\n\"Items\": [{\"Period\": 5, \"Item\": \"NewEmployee\"}]    \n}"
+			},
+			"parameters": [],
+			"headers": [
+				{
+					"name": "Token",
+					"value": "6cfcbc64-0dfe-45b1-b860-5a0aef7ac829",
+					"id": "pair_14554af3fbf549af86f7b9dca02f23b7"
+				},
+				{
+					"name": "CompanyCode",
+					"value": "testamis2",
+					"id": "pair_5fd8ea7c875d47d1b0abba1296352164"
+				},
+				{
+					"name": "OrganizationUnitID",
+					"value": "00000000-0000-0000-0000-000000000000",
+					"id": "pair_5d0963c058d843b480d25b62ff65fdac"
+				},
+				{
+					"name": "UserId",
+					"value": "00000000-0000-0000-0000-000000000000",
+					"id": "pair_2cd559e2e91c4e1f89c262e121898986"
+				},
+				{
+					"name": "Content-Type",
+					"value": "application/json",
+					"id": "pair_e4d412171ccf4b4e98cad5b578a47a23"
+				}
+			],
+			"authentication": {
+				"username": "",
+				"password": ""
+			},
+			"metaSortKey": -1506407638174,
+			"settingStoreCookies": true,
+			"settingSendCookies": true,
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"_type": "request"
+		},
+		{
+			"_id": "req_cf8d3104662840cca2b78c4ce6c7242c",
+			"parentId": "fld_507c82c9e4a9405bb6da864227fc64e9",
+			"modified": 1512461277706,
+			"created": 1512457349659,
+			"url": "{{ base_url  }}:10000/bot_v2",
+			"name": "co",
+			"description": "",
+			"method": "GET",
+			"body": {
+				"mimeType": "application/json",
+				"text": "{}"
+			},
+			"parameters": [
+				{
+					"name": "message",
+					"value": "ok",
+					"id": "pair_3f5e0e9ee5e64945a0a78c396c40ca8e"
+				}
+			],
+			"headers": [
+				{
+					"name": "Token",
+					"value": "6cfcbc64-0dfe-45b1-b860-5a0aef7ac829",
+					"id": "pair_30ce581880dc4f1d8808eef31b356dad"
+				},
+				{
+					"name": "CompanyCode",
+					"value": "misajsc",
+					"id": "pair_1733d9460a8d4d3fac8da2cec4efa98f"
+				},
+				{
+					"name": "BranchID",
+					"value": "00000000-0000-0000-0000-000000000000",
+					"id": "pair_b67c54d478484ff5b85f3a3980a34289"
+				},
+				{
+					"name": "Gender",
+					"value": "0",
+					"id": "pair_c1e1edea748f48b69f4ab3a850c258a5"
+				},
+				{
+					"name": "UserID",
+					"value": " 27B9659B-01BE-4304-9AD4-AFADF024D4C5",
+					"id": "pair_e3c67c92edac40bdace5f96c9e186ad2"
+				},
+				{
+					"name": "Content-Type",
+					"value": "application/json",
+					"id": "pair_749f3b891fda43b394e12eb5bea7d039"
+				},
+				{
+					"name": "SessionId",
+					"value": "2",
+					"id": "pair_0c44b8a808464394a97fb3deb953f27d"
+				}
+			],
+			"authentication": {
+				"username": "",
+				"password": ""
+			},
+			"metaSortKey": -1506407638177.75,
+			"settingStoreCookies": true,
+			"settingSendCookies": true,
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"_type": "request"
+		},
+		{
+			"_id": "req_589c1872325a4a8b909be10a9bb7fc4d",
+			"parentId": "fld_507c82c9e4a9405bb6da864227fc64e9",
+			"modified": 1512461215282,
+			"created": 1512457368195,
+			"url": "{{ base_url  }}:10000/bot_v2",
+			"name": "không",
+			"description": "",
+			"method": "GET",
+			"body": {
+				"mimeType": "application/json",
+				"text": "{}"
+			},
+			"parameters": [
+				{
+					"name": "message",
+					"value": "không",
+					"id": "pair_3f5e0e9ee5e64945a0a78c396c40ca8e"
+				}
+			],
+			"headers": [
+				{
+					"name": "Token",
+					"value": "6cfcbc64-0dfe-45b1-b860-5a0aef7ac829",
+					"id": "pair_30ce581880dc4f1d8808eef31b356dad"
+				},
+				{
+					"name": "CompanyCode",
+					"value": "misajsc",
+					"id": "pair_1733d9460a8d4d3fac8da2cec4efa98f"
+				},
+				{
+					"name": "BranchID",
+					"value": "00000000-0000-0000-0000-000000000000",
+					"id": "pair_b67c54d478484ff5b85f3a3980a34289"
+				},
+				{
+					"name": "Gender",
+					"value": "0",
+					"id": "pair_c1e1edea748f48b69f4ab3a850c258a5"
+				},
+				{
+					"name": "UserID",
+					"value": " 27B9659B-01BE-4304-9AD4-AFADF024D4C5",
+					"id": "pair_e3c67c92edac40bdace5f96c9e186ad2"
+				},
+				{
+					"name": "Content-Type",
+					"value": "application/json",
+					"id": "pair_749f3b891fda43b394e12eb5bea7d039"
+				},
+				{
+					"name": "SessionId",
+					"value": "2",
+					"id": "pair_0c44b8a808464394a97fb3deb953f27d"
+				},
+				{
+					"name": "",
+					"value": "",
+					"id": "pair_0f0105d96fd94ea1b9e566ed1d31d72b"
+				}
+			],
+			"authentication": {
+				"username": "",
+				"password": ""
+			},
+			"metaSortKey": -1506407638177.625,
+			"settingStoreCookies": true,
+			"settingSendCookies": true,
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"_type": "request"
+		},
+		{
+			"_id": "req_5361c70a6fa34a6f8be7e4cb19bf5216",
+			"parentId": "fld_2442d410f6644ed2a5fd356c6b09d68d",
+			"modified": 1508122586653,
+			"created": 1506410455663,
+			"url": "http://localhost:8010/chatbot",
+			"name": "chat",
+			"description": "",
+			"method": "GET",
+			"body": {
+				"mimeType": "application/json",
+				"text": "{\"name\":\"My_New_App\",\n       \"lang\":\"en\",\n       \"private\":\"false\"}"
+			},
+			"parameters": [
+				{
+					"name": "message",
+					"value": "ok cảm ơn em",
+					"id": "pair_262286f6287f424288948e7e5272092d"
+				}
+			],
+			"headers": [
+				{
+					"name": "Content-Type",
+					"value": "application/json",
+					"id": "pair_d68b7d31dd914b068e9952161ea6b8ab"
+				},
+				{
+					"name": "Token",
+					"value": "b133140e-97f4-40e3-8d8b-1ea9da7cfb80",
+					"id": "pair_fe6a3038453f4dc980b664839b81f3eb"
+				},
+				{
+					"name": "CompanyCode",
+					"value": "misatestpoc1",
+					"id": "pair_d64196d39cbf4e79ab6b549edf48f4b9"
+				},
+				{
+					"name": "BranchID",
+					"value": "0b7030ad-dd5e-4e1d-a5bd-accfe2770cc8",
+					"id": "pair_ab99c35d52894c2e9cc443f8fe08e1b7"
+				},
+				{
+					"name": "Gender",
+					"value": "0",
+					"id": "pair_c2948fa0d1c94bcab3ac3d53feffc43b"
+				}
+			],
+			"authentication": {
+				"username": "",
+				"password": ""
+			},
+			"metaSortKey": -1506410455737,
+			"settingStoreCookies": true,
+			"settingSendCookies": true,
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"_type": "request"
+		},
+		{
+			"_id": "req_06612eab0f0c4aa59abc783d5b370ba7",
+			"parentId": "fld_2442d410f6644ed2a5fd356c6b09d68d",
+			"modified": 1506503581730,
+			"created": 1506410455666,
+			"url": "http://127.0.0.1:8000/restaurantinfo",
+			"name": "update_info",
+			"description": "",
+			"method": "POST",
+			"body": {
+				"mimeType": "application/json",
+				"text": "{\"company_code\":\"comga\",\n\"branch_code\":\"123344556\",\n\"address\":\"15 duy tân cầu giấy\",\n\"owner_name\":\"nguyễn thùy dung\",\n\"owner_gender\":\"female\",\n\"branch_name\": \"nhà hàng cơm gà\",\n\"branch_phone\":\"112121\"\n}"
+			},
+			"parameters": [],
+			"headers": [
+				{
+					"name": "Content-Type",
+					"value": "application/json",
+					"id": "pair_1dd2f9966b9d40ffa80e4c2cd0a7ad38"
+				},
+				{
+					"name": "Token",
+					"value": "b133140e-97f4-40e3-8d8b-1ea9da7cfb80",
+					"id": "pair_f9d2a40d0ea341a28765aea91c4313a1"
+				}
+			],
+			"authentication": {
+				"username": "",
+				"password": ""
+			},
+			"metaSortKey": -1506410455712,
+			"settingStoreCookies": true,
+			"settingSendCookies": true,
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"_type": "request"
+		},
+		{
+			"_id": "req_a000044db9be46d1b9ce44418a6cf158",
+			"parentId": "fld_2442d410f6644ed2a5fd356c6b09d68d",
+			"modified": 1506503582867,
+			"created": 1506410455668,
+			"url": "http://127.0.0.1:8000/menu",
+			"name": "new_menu",
+			"description": "",
+			"method": "POST",
+			"body": {
+				"mimeType": "application/json",
+				"text": "{\n\"menu\":[ \n        \"cơm trang\", \n        \"fami1\"\n    ]\n}"
+			},
+			"parameters": [],
+			"headers": [
+				{
+					"name": "Content-Type",
+					"value": "application/json",
+					"id": "pair_155352c03d7549dc8279340dc90f8f9e"
+				},
+				{
+					"name": "Token",
+					"value": "b133140e-97f4-40e3-8d8b-1ea9da7cfb80",
+					"id": "pair_37d28c3f0e8346739fd35b28b8604f1d"
+				}
+			],
+			"authentication": {
+				"username": "",
+				"password": ""
+			},
+			"metaSortKey": -1506410455724.5,
+			"settingStoreCookies": true,
+			"settingSendCookies": true,
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"_type": "request"
+		},
+		{
+			"_id": "req_a0202497b4f04f908bd8c9157a0ffd87",
+			"parentId": "fld_2442d410f6644ed2a5fd356c6b09d68d",
+			"modified": 1511317059752,
+			"created": 1506410455682,
+			"url": "https://ai.cukcuk.vn/chatbot",
+			"name": "Local",
+			"description": "",
+			"method": "GET",
+			"body": {
+				"mimeType": "application/json",
+				"text": ""
+			},
+			"parameters": [
+				{
+					"name": "message",
+					"value": "cho hai kem",
+					"id": "pair_e1e00e1f990e465bb86959b2d1f36ed7"
+				},
+				{
+					"name": "voice",
+					"value": "0",
+					"id": "pair_c5fe9bb3ba4c4d1bb0aae2079651365e"
+				}
+			],
+			"headers": [
+				{
+					"name": "Authorization",
+					"value": "misatest06-29986629-e453-4fdc-99cd-7e238d78020d",
+					"id": "pair_ff40a823d1f645629c936cf1e9f6057a"
+				},
+				{
+					"name": "Content-Type",
+					"value": "application/json",
+					"id": "pair_05f8d5d9e7f34b7eb5e84f9b8b94ee62"
+				},
+				{
+					"name": "Token",
+					"value": "b133140e-97f4-40e3-8d8b-1ea9da7cfb80",
+					"id": "pair_8319b4c749a140f6bc88127389e28b3e"
+				},
+				{
+					"name": "CompanyCode",
+					"value": "misatest06",
+					"id": "pair_ae51b038a2e243db9111b615cab52f80"
+				},
+				{
+					"name": "BranchID",
+					"value": "29986629-e453-4fdc-99cd-7e238d78020d",
+					"id": "pair_9a5691d5bd30459a9b69e512a2e7066f"
+				}
+			],
+			"authentication": {
+				"username": "",
+				"password": ""
+			},
+			"metaSortKey": -1506410455682,
+			"settingStoreCookies": true,
+			"settingSendCookies": true,
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"_type": "request"
+		},
+		{
+			"_id": "req_251fb4b189094d7c9fbd9a7c153c156f",
+			"parentId": "fld_2442d410f6644ed2a5fd356c6b09d68d",
+			"modified": 1506562930668,
+			"created": 1506410455687,
+			"url": "https://ai.cukcuk.vn/chatbot",
+			"name": "Server",
+			"description": "",
+			"method": "GET",
+			"body": {
+				"mimeType": "application/json",
+				"text": "{\"name\":\"My_New_App\",\n       \"lang\":\"en\",\n       \"private\":\"false\"}"
+			},
+			"parameters": [
+				{
+					"name": "message",
+					"value": "bông lý xào tỏi",
+					"id": "pair_17e5ca91a31645cf9df88d7e8958d111"
+				},
+				{
+					"name": "voice",
+					"value": "0",
+					"id": "pair_b91aaf9501a347cea500b4ebc546d503"
+				},
+				{
+					"name": "",
+					"value": "",
+					"id": "pair_8c2b50cdcb5741b3995274b5828720a7"
+				}
+			],
+			"headers": [
+				{
+					"name": "Authorization",
+					"value": "misapoc2-994c6fe5-da83-441b-a0e8-57a6fed98fb2",
+					"id": "pair_6786f1c966da492e8694781c389b053e"
+				},
+				{
+					"name": "Content-Type",
+					"value": "application/json",
+					"id": "pair_d9809c1b559f4062b674cf5604efefec"
+				}
+			],
+			"authentication": {
+				"username": "",
+				"password": ""
+			},
+			"metaSortKey": -1506410455687,
+			"settingStoreCookies": true,
+			"settingSendCookies": true,
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"_type": "request"
+		},
+		{
+			"_id": "req_b0fab37e6eff444cbadd6f099ba6e40d",
+			"parentId": "fld_2442d410f6644ed2a5fd356c6b09d68d",
+			"modified": 1506585513129,
+			"created": 1506585017668,
+			"url": "https://ai.cukcuk.vn/chatbot",
+			"name": "Local (Copy)",
+			"description": "",
+			"method": "GET",
+			"body": {
+				"mimeType": "application/json",
+				"text": ""
+			},
+			"parameters": [
+				{
+					"name": "message",
+					"value": "cho anh hai trà đá",
+					"id": "pair_e1e00e1f990e465bb86959b2d1f36ed7"
+				},
+				{
+					"name": "voice",
+					"value": "0",
+					"id": "pair_c5fe9bb3ba4c4d1bb0aae2079651365e"
+				}
+			],
+			"headers": [
+				{
+					"name": "Authorization",
+					"value": "comrangquan-994c6fe5-da83-441b-a0e8-57a6fed98fb2",
+					"id": "pair_ff40a823d1f645629c936cf1e9f6057a"
+				},
+				{
+					"name": "Content-Type",
+					"value": "application/json",
+					"id": "pair_05f8d5d9e7f34b7eb5e84f9b8b94ee62"
+				},
+				{
+					"name": "Token",
+					"value": "b133140e-97f4-40e3-8d8b-1ea9da7cfb80",
+					"id": "pair_8319b4c749a140f6bc88127389e28b3e"
+				},
+				{
+					"name": "CompanyCode",
+					"value": "comrangquan",
+					"id": "pair_ae51b038a2e243db9111b615cab52f80"
+				},
+				{
+					"name": "BranchID",
+					"value": "994c6fe5-da83-441b-a0e8-57a6fed98fb2",
+					"id": "pair_9a5691d5bd30459a9b69e512a2e7066f"
+				}
+			],
+			"authentication": {
+				"username": "",
+				"password": ""
+			},
+			"metaSortKey": -1506410455671,
+			"settingStoreCookies": true,
+			"settingSendCookies": true,
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"_type": "request"
+		},
+		{
+			"_id": "req_76f7ff19b6b74f46b9f1d70ab537efaf",
+			"parentId": "fld_c2ef8c4dd7ad47b4b974ab0b9c88b160",
+			"modified": 1508128188064,
+			"created": 1508128188064,
+			"url": "http://117.6.16.176:81/bot",
+			"name": "bot",
+			"description": "",
+			"method": "GET",
+			"body": {
+				"mimeType": "application/json",
+				"text": "{}"
+			},
+			"parameters": [
+				{
+					"name": "message",
+					"value": "anh"
+				}
+			],
+			"headers": [
+				{
+					"name": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"authentication": {
+				"username": "",
+				"password": ""
+			},
+			"metaSortKey": -1508128188064,
+			"settingStoreCookies": true,
+			"settingSendCookies": true,
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"_type": "request"
+		},
+		{
+			"_id": "req_f4c0a9d5bf76410fa1afcc7d3f2a0ece",
+			"parentId": "fld_e91e726db91a45acaddc43453b6135da",
+			"modified": 1508128188077,
+			"created": 1508128188077,
+			"url": "http://0.0.0.0:8001/get",
+			"name": "qa-bot",
+			"description": "",
+			"method": "GET",
+			"body": {
+				"mimeType": "application/json",
+				"text": "{}"
+			},
+			"parameters": [
+				{
+					"name": "app_id",
+					"value": "sme"
+				},
+				{
+					"name": "message",
+					"value": "nhắn cho đồng chí Tùng"
+				},
+				{
+					"name": "intent",
+					"value": "message"
+				}
+			],
+			"headers": [
+				{
+					"name": "Content-Type",
+					"value": "application/json"
+				}
+			],
+			"authentication": {
+				"username": "",
+				"password": ""
+			},
+			"metaSortKey": -1508128188077,
+			"settingStoreCookies": true,
+			"settingSendCookies": true,
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"_type": "request"
+		},
+		{
+			"_id": "req_4a482d035f36439eb6cf4c28b62939b6",
+			"parentId": "fld_e91e726db91a45acaddc43453b6135da",
+			"modified": 1512017704734,
+			"created": 1508128188090,
+			"url": "https://ai.misa.com.vn/chatbot",
+			"name": "Chatbot",
+			"description": "",
+			"method": "GET",
+			"body": {
+				"mimeType": "application/json",
+				"text": "{}"
+			},
+			"parameters": [
+				{
+					"name": "app_id",
+					"value": "amis-hrm-04112017",
+					"id": "pair_4942e2d0e70c41a1bb6d671e98655395"
+				},
+				{
+					"name": "message",
+					"value": "tuần sau chi phí thế nào",
+					"id": "pair_15717478d57e4ba980f3912a278ff774"
+				}
+			],
+			"headers": [
+				{
+					"name": "Content-Type",
+					"value": "application/json",
+					"id": "pair_842336a2b46148768da99d084c7a5eac"
+				}
+			],
+			"authentication": {
+				"username": "",
+				"password": ""
+			},
+			"metaSortKey": -1508128188090,
+			"settingStoreCookies": true,
+			"settingSendCookies": true,
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"_type": "request"
+		},
+		{
+			"_id": "req_553ce828b6914a079193003ca7153ae6",
+			"parentId": "fld_e91e726db91a45acaddc43453b6135da",
+			"modified": 1512017638391,
+			"created": 1508128188091,
+			"url": "http://localhost:9000/get_training_data",
+			"name": "Get training data",
+			"description": "",
+			"method": "GET",
+			"body": {
+				"mimeType": "application/json",
+				"text": "{}"
+			},
+			"parameters": [
+				{
+					"name": "app_id",
+					"value": "amis-hrm-04112017",
+					"id": "pair_4aa503ac4f444c81b5135fbb6bcb90cb"
+				}
+			],
+			"headers": [
+				{
+					"name": "Content-Type",
+					"value": "application/json",
+					"id": "pair_2da0f8a81a634d819d5110b4fd075add"
+				}
+			],
+			"authentication": {
+				"username": "",
+				"password": ""
+			},
+			"metaSortKey": -1508128188091,
+			"settingStoreCookies": true,
+			"settingSendCookies": true,
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"_type": "request"
+		},
+		{
+			"_id": "req_29c547f48bed4ca498570118e441abc8",
+			"parentId": "fld_e91e726db91a45acaddc43453b6135da",
+			"modified": 1510969590641,
+			"created": 1508128188095,
+			"url": "http://117.6.16.176:9000/train",
+			"name": "Retrain",
+			"description": "",
+			"method": "POST",
+			"body": {
+				"mimeType": "application/json",
+				"text": "## intents:pr\n- hôm nay bán hàng thế nào<!--\tThưa anh, hôm nay bán được 300 triệu.-->\n- tình hình tài chính tháng này thế nào<!--\tThưa anh, doanh số bán hàng tháng này là 1 tỷ 8, chi phí 301 triệu, lợi nhuận tạm tính 1 tỷ rưỡi, tiền hiện có 6 tỷ 6.-->\n- doanh số tháng trước là bao nhiêu<!--\tThưa anh, doanh số bán hàng tháng trước là 20 tỷ đồng.-->\n- lợi nhuận của tháng 9 là bao nhiêu<!--\tThưa anh, lợi nhuận tháng 9 là 12 tỷ rưỡi ạ.-->\n- tình hình nhân sự thế nào<!--\tThưa anh, hiện nay công ty có 50 nhân viên. Trong đó có 45 nhân viên chính thức và 10 nhân viên thử việc.-->\n- tỷ lệ nam nữ thế nào<!--\tThưa anh, hiện nay có 40 nhân viên nam, chiếm 80% và 10 nhân viên nữ, chiếm 10%.-->\n- em đã lấy chồng chưa<!--\tEm còn chưa có người yêu anh ạ.-->\n- anh mai mối cho em nhé!\tVâng! Thế thì tuyệt quá!-->\n- thời tiết hôm nay thế nào<!--\tDạ, hôm nay Hà Nội nắng nhẹ, nhiệt độ khoảng 28 độ. Rất phù hợp cho chụp ảnh ngoài trời anh ạ.-->\n- gọi nguyễn thế cường<!--\tEm sẽ thực hiện gọi điện cho anh Nguyễn Thế Cường.-->\n- ok, cảm ơn em nhé<!--\tDạ, không có gì ạ!-->\n- bye bye em<!--\tVâng, hẹn gặp lại anh!-->\n"
+			},
+			"parameters": [
+				{
+					"name": "app_id",
+					"value": "amis",
+					"id": "pair_0ab1d2de39e14e5fa40070f7d51ba200"
+				}
+			],
+			"headers": [
+				{
+					"name": "Content-Type",
+					"value": "application/json",
+					"id": "pair_6e048d9e44234e4eb115e89a4d6b43a8"
+				}
+			],
+			"authentication": {
+				"username": "",
+				"password": ""
+			},
+			"metaSortKey": -1508128188095,
+			"settingStoreCookies": true,
+			"settingSendCookies": true,
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"_type": "request"
+		},
+		{
+			"_id": "req_bc97f42df6b34f568c5161bba784bf35",
+			"parentId": "fld_ef5c20140eb34c1dbfeb8b297e509289",
+			"modified": 1512439578840,
+			"created": 1509702991395,
+			"url": "{{ base_url  }}:6000/parse",
+			"name": "parse",
+			"description": "",
+			"method": "GET",
+			"body": {
+				"mimeType": "application/json",
+				"text": ""
+			},
+			"parameters": [
+				{
+					"name": "message",
+					"value": "năm sau có ai sinh nhật",
+					"id": "pair_34ea31ed6a4c45e0b4a5be08898630b5"
+				},
+				{
+					"name": "project",
+					"value": "amis",
+					"id": "pair_fbd71de8d5e641308a8494f701b08c99"
+				}
+			],
+			"headers": [
+				{
+					"name": "Content-Type",
+					"value": "application/json",
+					"id": "pair_fb36cd0e2529423197d30395aaad1ca9"
+				}
+			],
+			"authentication": {},
+			"metaSortKey": -1508323794895,
+			"settingStoreCookies": true,
+			"settingSendCookies": true,
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"_type": "request"
+		},
+		{
+			"_id": "req_3bedfa96f78f463fa3883bf1bcedad4c",
+			"parentId": "fld_ef5c20140eb34c1dbfeb8b297e509289",
+			"modified": 1511777804685,
+			"created": 1511777745552,
+			"url": "https://nlugateway.misa.com.vn/parse",
+			"name": "parse (Copy)",
+			"description": "",
+			"method": "GET",
+			"body": {
+				"mimeType": "application/json",
+				"text": ""
+			},
+			"parameters": [
+				{
+					"name": "message",
+					"value": "doanh số hôm nay thế nào",
+					"id": "pair_34ea31ed6a4c45e0b4a5be08898630b5"
+				},
+				{
+					"name": "project",
+					"value": "amis-117",
+					"id": "pair_fbd71de8d5e641308a8494f701b08c99"
+				}
+			],
+			"headers": [
+				{
+					"name": "Content-Type",
+					"value": "application/json",
+					"id": "pair_fb36cd0e2529423197d30395aaad1ca9"
+				}
+			],
+			"authentication": {},
+			"metaSortKey": -1508225991495,
+			"settingStoreCookies": true,
+			"settingSendCookies": true,
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"_type": "request"
+		},
+		{
+			"_id": "req_fb906503c42345dca90b5eb1efd30053",
+			"parentId": "fld_a82d50a7fdfc4bdeb1517292332b4057",
+			"modified": 1511426539319,
+			"created": 1509605240182,
+			"url": "{{ base_url  }}:8005/train",
+			"name": "get config",
+			"description": "",
+			"method": "GET",
+			"body": {
+				"mimeType": "application/json",
+				"text": ""
+			},
+			"parameters": [
+				{
+					"name": "project",
+					"value": "amis-117",
+					"id": "pair_ccb25555be2a4c85870c7e35a3ca3769"
+				}
+			],
+			"headers": [
+				{
+					"name": "Content-Type",
+					"value": "application/json",
+					"id": "pair_9eb30f1f9e134f3b843ad0fac097fde8"
+				}
+			],
+			"authentication": {},
+			"metaSortKey": -1509499937078.75,
+			"settingStoreCookies": true,
+			"settingSendCookies": true,
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"_type": "request"
+		},
+		{
+			"_id": "req_8c4d868caef044a1be4547787fa406ce",
+			"parentId": "fld_a82d50a7fdfc4bdeb1517292332b4057",
+			"modified": 1511426542936,
+			"created": 1509941218557,
+			"url": "{{ base_url  }}:6000/restart",
+			"name": "restart",
+			"description": "",
+			"method": "GET",
+			"body": {
+				"mimeType": "application/json",
+				"text": ""
+			},
+			"parameters": [
+				{
+					"name": "project",
+					"value": "amis-117",
+					"id": "pair_2c67d8897c48454494e46cfe84b17637"
+				},
+				{
+					"name": "",
+					"value": "",
+					"id": "pair_b07182eb79154afca9e3b717de02ad5e"
+				}
+			],
+			"headers": [
+				{
+					"name": "Content-Type",
+					"value": "application/json",
+					"id": "pair_fb36cd0e2529423197d30395aaad1ca9"
+				}
+			],
+			"authentication": {},
+			"metaSortKey": -1509499937028.75,
+			"settingStoreCookies": true,
+			"settingSendCookies": true,
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"_type": "request"
+		},
+		{
+			"_id": "req_5c5135cca00d4a7ea2126b72eb74e25e",
+			"parentId": "fld_a82d50a7fdfc4bdeb1517292332b4057",
+			"modified": 1511426534754,
+			"created": 1510299901376,
+			"url": "{{ base_url  }}:6031/get_training_data",
+			"name": "get_training_data",
+			"description": "",
+			"method": "GET",
+			"body": {
+				"mimeType": "application/json",
+				"text": ""
+			},
+			"parameters": [
+				{
+					"name": "project",
+					"value": "pr",
+					"id": "pair_2c67d8897c48454494e46cfe84b17637"
+				}
+			],
+			"headers": [
+				{
+					"name": "Content-Type",
+					"value": "application/json",
+					"id": "pair_fb36cd0e2529423197d30395aaad1ca9"
+				}
+			],
+			"authentication": {},
+			"metaSortKey": -1509499937128.75,
+			"settingStoreCookies": true,
+			"settingSendCookies": true,
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"_type": "request"
+		},
+		{
+			"_id": "req_e215a747d55e4a8b92b649c3474cd75d",
+			"parentId": "fld_a82d50a7fdfc4bdeb1517292332b4057",
+			"modified": 1511426548500,
+			"created": 1511160360250,
+			"url": "{{ base_url  }}:9000/parse",
+			"name": "parse",
+			"description": "",
+			"method": "GET",
+			"body": {
+				"mimeType": "application/json",
+				"text": ""
+			},
+			"parameters": [
+				{
+					"name": "project",
+					"value": "pr",
+					"id": "pair_2c67d8897c48454494e46cfe84b17637"
+				},
+				{
+					"name": "query",
+					"value": "bật quạt",
+					"id": "pair_b07182eb79154afca9e3b717de02ad5e"
+				},
+				{
+					"name": "",
+					"value": "",
+					"id": "pair_94a8ba8be5874378ad66a7d3a06d2f54"
+				}
+			],
+			"headers": [
+				{
+					"name": "Content-Type",
+					"value": "application/json",
+					"id": "pair_fb36cd0e2529423197d30395aaad1ca9"
+				}
+			],
+			"authentication": {},
+			"metaSortKey": -1508911865961.875,
+			"settingStoreCookies": true,
+			"settingSendCookies": true,
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"_type": "request"
+		},
+		{
+			"_id": "req_cce890f744a549f0a6f49aa0f48329a9",
+			"parentId": "fld_a82d50a7fdfc4bdeb1517292332b4057",
+			"modified": 1511426555923,
+			"created": 1511238658605,
+			"url": "{{ base_url  }}:6031/status",
+			"name": "status",
+			"description": "",
+			"method": "GET",
+			"body": {
+				"mimeType": "application/json",
+				"text": ""
+			},
+			"parameters": [
+				{
+					"name": "",
+					"value": "",
+					"id": "pair_94a8ba8be5874378ad66a7d3a06d2f54"
+				}
+			],
+			"headers": [
+				{
+					"name": "Content-Type",
+					"value": "application/json",
+					"id": "pair_fb36cd0e2529423197d30395aaad1ca9"
+				}
+			],
+			"authentication": {},
+			"metaSortKey": -1508617830428.4375,
+			"settingStoreCookies": true,
+			"settingSendCookies": true,
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"_type": "request"
+		},
+		{
+			"_id": "req_ab5a634db71d4974b855ac899b93a5dc",
+			"parentId": "fld_8aa6f8af7c1246078815c5b2d29395f0",
+			"modified": 1511855993711,
+			"created": 1510886614623,
+			"url": "{{ base_url  }}:7000/replace_tag",
+			"name": "replace_tag",
+			"description": "",
+			"method": "POST",
+			"body": {
+				"mimeType": "application/json",
+				"text": "{\n\t\"message\":\"thưa anh hôm nay là {get_bot_name}\",\n\t\"data\":{\n\t\"dia_diem\":\"hồ chí minh\"\n\t}\n}"
+			},
+			"parameters": [],
+			"headers": [
+				{
+					"name": "Content-Type",
+					"value": "application/json",
+					"id": "pair_a86cc453e2e64bc4a636d70a1989ca16"
+				}
+			],
+			"authentication": {},
+			"metaSortKey": -1506761888493,
+			"settingStoreCookies": true,
+			"settingSendCookies": true,
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"_type": "request"
+		},
+		{
+			"_id": "req_29e8648152b6495d92d03509aeefc398",
+			"parentId": "fld_8aa6f8af7c1246078815c5b2d29395f0",
+			"modified": 1512439451931,
+			"created": 1510886614624,
+			"url": "{{ base_url  }}:7000/put",
+			"name": "put",
+			"description": "",
+			"method": "POST",
+			"body": {
+				"mimeType": "application/json",
+				"text": "## intent:hoi_sinh_nhat \n- [hôm nay](thoi_gian) có ai sinh nhật\n- có ai sinh nhật không\n- ai sinh nhật không\n- có ai sinh nhật hôm nay không\n"
+			},
+			"parameters": [
+				{
+					"name": "domain",
+					"value": "hrm",
+					"id": "pair_e8bb2a0773a34b5995ddbdb0349dd886"
+				},
+				{
+					"name": "message",
+					"value": "commit dau tien",
+					"id": "pair_159b8d9aa8154d7eb0dd839cdf330bc5"
+				},
+				{
+					"name": "intent",
+					"value": "hoi_sinh_nhat",
+					"id": "pair_d2021fce56b7481c9ae8fcb7c0432215"
+				}
+			],
+			"headers": [
+				{
+					"name": "Content-Type",
+					"value": "application/json",
+					"id": "pair_a86cc453e2e64bc4a636d70a1989ca16"
+				}
+			],
+			"authentication": {},
+			"metaSortKey": -1506586172115,
+			"settingStoreCookies": true,
+			"settingSendCookies": true,
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"_type": "request"
+		},
+		{
+			"_id": "req_a1f1f633ffaa45f78bdcfa11e8f01ffa",
+			"parentId": "fld_8aa6f8af7c1246078815c5b2d29395f0",
+			"modified": 1511426494420,
+			"created": 1510886614626,
+			"url": "{{ base_url  }}:8003/get_markdown",
+			"name": "md",
+			"description": "",
+			"method": "GET",
+			"body": {
+				"mimeType": "application/json",
+				"text": ""
+			},
+			"parameters": [
+				{
+					"name": "domain",
+					"value": "cukcukmanager",
+					"id": "pair_9f35552d479b42b2ae0e4c4e87d73715"
+				}
+			],
+			"headers": [
+				{
+					"name": "Content-Type",
+					"value": "application/json",
+					"id": "pair_a86cc453e2e64bc4a636d70a1989ca16"
+				}
+			],
+			"authentication": {},
+			"metaSortKey": -1506498313926,
+			"settingStoreCookies": true,
+			"settingSendCookies": true,
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"_type": "request"
+		},
+		{
+			"_id": "req_6386b6fe45594465a1b84dbdef0c2572",
+			"parentId": "fld_8aa6f8af7c1246078815c5b2d29395f0",
+			"modified": 1511426479850,
+			"created": 1510886614629,
+			"url": "{{ base_url  }}:8003/get_change_time",
+			"name": "lasted_change_time",
+			"description": "",
+			"method": "POST",
+			"body": {
+				"mimeType": "application/json",
+				"text": "## intent:che\n- em dốt thế ha em <!-- {get_customer_prefix_name} nói thế nào chứ ai cũng khen em thông minh đấy -->\n- mày ngu thế <!-- Ôi sao {get_customer_prefix_name} lại mắng em thế, nếu em làm chưa tốt thì em sẽ xin cố gắng hơn -->\n- mày dốt thế <!-- Đừng mắng em thế tội nghiệp -->\n- dốt quá <!-- Đừng mắng em thế tội nghiệp -->\n- mày dở hơi à <!-- Ôi sao {get_customer_prefix_name} lại mắng em thế -->\n- sao em ngốc thế <!-- Sao {get_customer_prefix_name} lại mắng em ạ, em đang thay đổi mà -->\n- em xấu thế <!-- {get_customer_prefix_name} đừng chê em tội nghiệp lắm ạ -->\n- em ngốc thế <!-- Sao {get_customer_prefix_name} lại mắng em ạ, em đang thay đổi mà -->\n- em xấu thế <!-- {get_customer_prefix_name} đừng chê em tội nghiệp lắm ạ -->\n- mày dở hơi à  <!-- Ôi sao {get_customer_prefix_name} lại mắng em thế -->\n- em dốt thế\t<!-- Đừng mắng em thế tội nghiệp -->\n\n- mày ngu thế <!-- Ôi sao {get_customer_prefix_name} lại mắng em thế, nếu em làm chưa tốt thì em sẽ xin cố gắng hơn -->\n- điên à \t<!-- Ôi sao {get_customer_prefix_name} lại mắng em thế, nếu em làm chưa tốt thì em sẽ xin cố gắng hơn -->\n- bị điên à \t<!-- Ôi sao {get_customer_prefix_name} lại mắng em thế, nếu em làm chưa tốt thì em sẽ xin cố gắng hơn -->\n- đồ vớ vẩn \t<!-- Ôi sao {get_customer_prefix_name} lại mắng em thế, nếu em làm chưa tốt thì em sẽ xin cố gắng hơn -->\n- hâm à\t<!-- Ôi sao {get_customer_prefix_name} lại mắng em thế, nếu em làm chưa tốt thì em sẽ xin cố gắng hơn -->\n- dở hơi à\t<!-- Ôi sao {get_customer_prefix_name} lại mắng em thế, nếu em làm chưa tốt thì em sẽ xin cố gắng hơn -->\n- đồ dở hơi\t<!-- Ôi sao {get_customer_prefix_name} lại mắng em thế, nếu em làm chưa tốt thì em sẽ xin cố gắng hơn -->\n- đồ tồi\t<!-- Ôi sao {get_customer_prefix_name} lại mắng em thế, nếu em làm chưa tốt thì em sẽ xin cố gắng hơn -->\n- thần kinh à\t<!-- Ôi sao {get_customer_prefix_name} lại mắng em thế, nếu em làm chưa tốt thì em sẽ xin cố gắng hơn -->\n- bị thần kinh à <!-- Ôi sao {get_customer_prefix_name} lại mắng em thế, nếu em làm chưa tốt thì em sẽ xin cố gắng hơn -->\n\n- đồ đần    <!-- Ơ sao {get_customer_prefix_name} lại chửi em ạ, em có làm gì sai đâu -->\n- đồ củ khoai   <!-- Ơ sao {get_customer_prefix_name} lại chửi em ạ, em có làm gì sai đâu -->\n- đồ củ chuối   <!-- Ơ sao {get_customer_prefix_name} lại chửi em ạ, em có làm gì sai đâu -->\n- fuck you  <!-- Ơ sao {get_customer_prefix_name} lại chửi em ạ, em có làm gì sai đâu -->\n- bố mày    <!-- Ơ sao {get_customer_prefix_name} lại chửi em ạ, em có làm gì sai đâu -->\n- sư mày    <!-- Ơ sao {get_customer_prefix_name} lại chửi em ạ, em có làm gì sai đâu -->\n- tiên sư mày   <!-- Ơ sao {get_customer_prefix_name} lại chửi em ạ, em có làm gì sai đâu -->\n- mẹ mày    <!-- Ơ sao {get_customer_prefix_name} lại chửi em ạ, em có làm gì sai đâu -->\n\n\n- tởm đấy   <!-- Ơ sao {get_customer_prefix_name} lại chửi em ạ, em có làm gì sai đâu -->\n- đĩ thế    <!-- Đâu có đâu {get_customer_prefix_name}, em chỉ điệu tí thôi mà -->\n- tôi ghét em  <!-- Em đã làm gì không phải mà {get_customer_prefix_name} lại ghét em thế -->\n- đáng ghét <!-- Hihi, đáng ghét ngược lại là đáng yêu đúng không ạ -->\n\n- em im mồm đi <!-- Vâng, em xin lỗi vì đã làm {get_customer_prefix_name} giận -->\n- im mồm <!-- Hic, {get_customer_prefix_name} tức em thế à -->\n- con đĩ này <!-- Sao {get_customer_prefix_name} lại nói thế, em có làm gì {get_customer_prefix_name} đâu, hừm --> \n- con chó <!-- Sao {get_customer_prefix_name} lại nói thế, em có làm gì {get_customer_prefix_name} đâu, hừm --> \n- em thật lắm điều <!-- Đâu có đâu {get_customer_prefix_name}, em nói vừa phải mà -->\n\n- sao em ngu thế\t<!-- Sao {get_customer_prefix_name} lại mắng em ạ, em đang tiến bộ từng ngày mà. -->\n- đồ khốn <!-- Sao {get_customer_prefix_name} lại mắng em thế ạ  -->  \n- em là đồ khốn <!-- Sao {get_customer_prefix_name} lại mắng em thế ạ\t    -->  \n- chém gió <!--  Em có chém gì đâu {get_customer_prefix_name}           -->  \n- điêu <!-- Em nói thật đấy ạ   -->  \n- phét <!-- Em nói thật đấy ạ   -->  \n- biến <!-- Sao anh lại đuổi em ạ  -->  \n- biến đi <!-- Sao anh lại đuổi em. Em làm gì sai ạ -->  \n- sao nói chậm thế <!-- Em đang tập anh ạ -->  \n- sao em nói chậm thế <!-- Em đang tập anh ạ -->\n\n- chó <!-- Sao {get_customer_prefix_name} lại mắng em thế ạ.  -->\n- ngu như chó <!-- Sao {get_customer_prefix_name} lại mắng em thế ạ. -->"
+			},
+			"parameters": [
+				{
+					"name": "domain",
+					"value": "hoi_chung",
+					"id": "pair_31ff24e73efa46ea989c481b99d4a614"
+				}
+			],
+			"headers": [
+				{
+					"name": "Content-Type",
+					"value": "application/json",
+					"id": "pair_a86cc453e2e64bc4a636d70a1989ca16"
+				}
+			],
+			"authentication": {},
+			"metaSortKey": -1506542243020.5,
+			"settingStoreCookies": true,
+			"settingSendCookies": true,
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"_type": "request"
+		},
+		{
+			"_id": "req_3232f0a7377e46ba939f6050b665b4b8",
+			"parentId": "fld_8aa6f8af7c1246078815c5b2d29395f0",
+			"modified": 1511426253198,
+			"created": 1510888743816,
+			"url": "{{ base_url }}:8003/get_intents",
+			"name": "get intents",
+			"description": "",
+			"method": "GET",
+			"body": {
+				"mimeType": "application/json",
+				"text": ""
+			},
+			"parameters": [
+				{
+					"name": "domain",
+					"value": "hoi_chung",
+					"id": "pair_e8bb2a0773a34b5995ddbdb0349dd886"
+				}
+			],
+			"headers": [
+				{
+					"name": "Content-Type",
+					"value": "application/json",
+					"id": "pair_a86cc453e2e64bc4a636d70a1989ca16"
+				}
+			],
+			"authentication": {},
+			"metaSortKey": -1506564207567.75,
+			"settingStoreCookies": true,
+			"settingSendCookies": true,
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"_type": "request"
+		},
+		{
+			"_id": "req_cee46d0d585c411abebfcc333b124309",
+			"parentId": "fld_8aa6f8af7c1246078815c5b2d29395f0",
+			"modified": 1511780014215,
+			"created": 1511779721972,
+			"url": "https://nludata.misa.com.vn/put",
+			"name": "put (Copy)",
+			"description": "",
+			"method": "POST",
+			"body": {
+				"mimeType": "application/json",
+				"text": "## intent:hoi_linh_tinh\n- yêu anh không em<!-- dạ em có người yêu rồi ạ -->\n- yêu anh không <!-- dạ em có người yêu rồi nhé -->\n- anh đói quá <!-- sắp đến giờ ăn rồi, {get_customer_prefix_name} gắng đợi nhé   -->\n- anh khát quá <!-- sắp đến giờ ăn rồi, {get_customer_prefix_name} gắng đợi nhé   -->\n- sắp có lương chưa <!-- Lương cứ đến kỳ là nhận, cần gì phải lo ạ   -->\n\n- chị có quen không em <!-- Chắc là có đấy {get_customer_prefix_name}, em trông {get_customer_prefix_name} cũng quen quen -->                                     \n- nhìn chị quen không em <!-- Em trông {get_customer_prefix_name} quen lắm, nhưng không nhớ đã gặp ở đâu -->\n- em có biết chị không <!-- Em trông {get_customer_prefix_name} quen lắm, nhưng không nhớ đã gặp ở đâu   -->\n\n- trời tối chưa <!-- trời tối rồi -->\n- trời tối chưa <!-- trời tối rồi ạ -->\n\n- nhìn anh quen không em\t<!-- Em trông {get_customer_prefix_name} quen lắm, nhưng không nhớ đã gặp ở đâu -->\n- anh có quen em không\t<!-- Chắc là có đấy {get_customer_prefix_name}, em trông {get_customer_prefix_name} cũng quen quen -->\n- em có biết anh không\t<!-- Chắc là có đấy {get_customer_prefix_name}, em trông {get_customer_prefix_name} cũng quen quen -->\n- nhìn chị quen không em\t<!-- Em trông {get_customer_prefix_name} quen lắm, nhưng không nhớ đã gặp ở đâu -->\n- chị có quen em không\t<!-- Chắc là có đấy {get_customer_prefix_name}, em trông {get_customer_prefix_name} cũng quen quen -->\n- em có biết chị không\t<!-- Chắc là có đấy {get_customer_prefix_name}, em trông {get_customer_prefix_name} cũng quen quen -->\n\n- em có thấy anh đẹp zai không\t<!-- Anh là người có khuôn mặt và giọng nói tuyệt vời nhất mà em từng gặp đấy -->\n- nhìn anh ngon zai không em\t<!-- Trông anh rất phong độ đó -->\n- em đã thấy ai đẹp trai hơn anh chưa\t<!-- Anh là người có khuôn mặt và giọng nói tuyệt vời nhất mà em từng gặp đấy -->\n- trông anh ổn đấy chứ\t<!-- Ngon anh ạ -->\n- tối nay em đi chơi với anh nhé\t<!-- Cảm ơn vì lời mời của anh, nhưng em muốn về nhà với mẹ hơn -->\n- đi chơi với anh không\t<!-- Không được đâu, em có người yêu rồi -->\n- đi chơi với anh em nhé\t<!-- Không được đâu, em có người yêu rồi -->\n- hết giờ anh đưa em về nhé\t<!-- Không được đâu, bố mẹ em mắng chết -->\n- nhìn chị xinh không em\t<!-- Trông chị rất xinh gái đó -->\n- em có thấy chị xinh gái không\t<!-- Chị là người có khuôn mặt và giọng nói tuyệt vời nhất mà em từng gặp đấy -->\n- nhìn chị ngon zai không em\t<!-- Trông chị rất xinh gái đó -->\n- em đã thấy ai xinh gái hơn chị chưa\t<!-- Chị là người có khuôn mặt và giọng nói tuyệt vời nhất mà em từng gặp đấy -->\n- trông chị ổn đấy chứ\t<!-- Ngon chị ạ -->\n- tối nay em đi chơi với chị nhé\t<!-- Cảm ơn vì lời mời của chị, nhưng em muốn về nhà với mẹ hơn -->\n- đi chơi với chị em nhé\t<!-- Không được đâu, em có người yêu rồi -->\n- hết giờ chị đưa em về nhé\t<!-- Không được đâu, bố mẹ em mắng chết -->\n\n- em có thông minh không\t<!-- Tất nhiên là em thông minh rồi -->\n- em có yêu anh không\t<!-- Dạ, em sẽ cân nhắc việc này -->\n- yêu anh không em\t<!-- Dạ, để em tìm hiểu thêm đã nhé -->\n- em có thích anh không\t<!-- Dạ, để em tìm hiểu thêm đã nhé -->\n- yêu anh nhé\t<!-- Dạ, em sẽ cân nhắc việc này -->\n\n- em cần giúp gì không <!-- Dạ {get_customer_prefix_name} cứ trò chuyện với em là em vui rồi ạ -->\n- em cần tôi giúp gì không <!-- Cảm ơn {get_customer_prefix_name}. Giúp được {get_customer_prefix_name} là em vui lắm rồi ạ -->\n- tôi buồn quá hãy yêu tôi <!-- Em biết yêu {get_customer_prefix_name} thế nào bây giờ -->\n- dạo này tôi xấu lắm à <!-- Không đâu, {get_customer_prefix_name} vẫn mãi đẹp trong mắt em mà -->\n- đi ăn trưa không em <!--  Cám ơn {get_customer_prefix_name} vì đã mời em nhưng trưa nay em có hẹn rồi ạ -->\n- đi uống café không em <!-- Cám ơn {get_customer_prefix_name} nhưng em có việc bận rồi {get_customer_prefix_name} ạ -->\n- em không giúp gì được <!--  Sao thế ạ, có việc gì em không giúp được vậy {get_customer_prefix_name} -->\n- sổ xố hôm nay thế nào em  <!-- Câu này em sẽ trả lời {get_customer_prefix_name} sau nhé --> \n- toàn câu nào cũng xin phép không trả lời <!--  Có những cái phải bí mật {get_customer_prefix_name} ạ -->\n- câu nào cũng không trả lời được <!--  Có những cái phải bí mật {get_customer_prefix_name} ạ             -->\n- ăn đấm không <!-- Sao {get_customer_prefix_name} lại nói em thế ạ  -->  \n- em có ngủ không <!-- Em không cần ngủ nhiều đâu ạ -->\n\n\n- em ăn chưa\t<!-- Dạ em ăn rồi {get_customer_prefix_name} ạ -->\n- em ăn tối chưa\t<!-- Dạ em ăn rồi {get_customer_prefix_name} ạ -->\n- em đã ăn gì chưa\t<!-- Dạ em ăn rồi {get_customer_prefix_name} ạ -->\n- em đói chưa\t<!-- Dạ em ăn rồi {get_customer_prefix_name} ạ --> \n- em ăn trưa chưa\t<!-- Dạ em ăn rồi {get_customer_prefix_name} ạ -->\n- em đói không\t<!-- Dạ em ăn rồi {get_customer_prefix_name} ạ -->\n\n- em ngu hay mày thông minh\t<!-- Tất nhiên là em thông minh rồi-->\n- em ngu hay mày thông minh\t<!-- Tại sao {get_customer_prefix_name} không thử xem -->\n- em ngu hay mày thông minh\t<!-- Em luôn học tập, bởi vậy em luôn thông minh-->\n- em ngu hay mày thông minh\t<!-- Xin lỗi {get_customer_prefix_name}, em là một người máy thông minh -->\n\n\n- mày biết được những trò gì\t<!-- Em có thể nói chuyện với {get_customer_prefix_name} -->\n- em có thể làm được những gì\t<!-- Em có thể nói chuyện được với {get_customer_prefix_name} -->\n- em làm được những gì\t<!-- Em có thể nói chuyện được với {get_customer_prefix_name} -->\n- em biết làm những gì\t<!-- Em có thể nói chuyện được với {get_customer_prefix_name} -->"
+			},
+			"parameters": [
+				{
+					"name": "domain",
+					"value": "hoi_chung",
+					"id": "pair_e8bb2a0773a34b5995ddbdb0349dd886"
+				},
+				{
+					"name": "message",
+					"value": "commit dau tien",
+					"id": "pair_159b8d9aa8154d7eb0dd839cdf330bc5"
+				},
+				{
+					"name": "intent",
+					"value": "hoi_linh_tinh",
+					"id": "pair_d2021fce56b7481c9ae8fcb7c0432215"
+				}
+			],
+			"headers": [
+				{
+					"name": "Content-Type",
+					"value": "application/json",
+					"id": "pair_a86cc453e2e64bc4a636d70a1989ca16"
+				}
+			],
+			"authentication": {},
+			"metaSortKey": -1506575189841.375,
+			"settingStoreCookies": true,
+			"settingSendCookies": true,
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"_type": "request"
+		},
+		{
+			"_id": "req_d1e7483558e3493e936e9e26c4628ab7",
+			"parentId": "fld_9fa7eb38028747c8979651ea8c616617",
+			"modified": 1511928639455,
+			"created": 1511252270383,
+			"url": "{{ base_url  }}:81/bot",
+			"name": "bot",
+			"description": "",
+			"method": "GET",
+			"body": {
+				"mimeType": "application/json",
+				"text": "{}"
+			},
+			"parameters": [
+				{
+					"name": "message",
+					"value": "Tìm cho chị yếm bò còn size xl không nhé",
+					"id": "pair_0269a70802764a9387b0cfe7640b2dcd"
+				},
+				{
+					"name": "",
+					"value": "",
+					"id": "pair_a3475ec552064f3b96afe067f510b795"
+				}
+			],
+			"headers": [
+				{
+					"name": "Token",
+					"value": "6cfcbc64-0dfe-45b1-b860-5a0aef7ac829",
+					"id": "pair_30ce581880dc4f1d8808eef31b356dad"
+				},
+				{
+					"name": "CompanyCode",
+					"value": "boshop",
+					"id": "pair_1733d9460a8d4d3fac8da2cec4efa98f"
+				},
+				{
+					"name": "BranchID",
+					"value": "994c6fe5-da83-441b-a0e8-57a6fed98fb2",
+					"id": "pair_b67c54d478484ff5b85f3a3980a34289"
+				}
+			],
+			"authentication": {
+				"username": "",
+				"password": ""
+			},
+			"metaSortKey": -1506407638178,
+			"settingStoreCookies": true,
+			"settingSendCookies": true,
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"_type": "request"
+		},
+		{
+			"_id": "req_5074ebd9bfdb4853a7f64f98b3154d0f",
+			"parentId": "fld_9fa7eb38028747c8979651ea8c616617",
+			"modified": 1511836447725,
+			"created": 1511256350681,
+			"url": "localhost:8000/pulldata",
+			"name": "pulldata",
+			"description": "",
+			"method": "GET",
+			"body": {
+				"mimeType": "application/json",
+				"text": "{}"
+			},
+			"parameters": [],
+			"headers": [
+				{
+					"name": "Token",
+					"value": "6cfcbc64-0dfe-45b1-b860-5a0aef7ac829",
+					"id": "pair_30ce581880dc4f1d8808eef31b356dad"
+				},
+				{
+					"name": "CompanyCode",
+					"value": "boshop",
+					"id": "pair_1733d9460a8d4d3fac8da2cec4efa98f"
+				},
+				{
+					"name": "BranchID",
+					"value": "994c6fe5-da83-441b-a0e8-57a6fed98fb2",
+					"id": "pair_b67c54d478484ff5b85f3a3980a34289"
+				}
+			],
+			"authentication": {
+				"username": "",
+				"password": ""
+			},
+			"metaSortKey": -1506407638177,
+			"settingStoreCookies": true,
+			"settingSendCookies": true,
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"_type": "request"
+		},
+		{
+			"_id": "req_1f8524d44675488eb33f72131f231ca0",
+			"parentId": "fld_9fa7eb38028747c8979651ea8c616617",
+			"modified": 1511256774918,
+			"created": 1511256637344,
+			"url": "localhost:8000/trainname",
+			"name": "trainname",
+			"description": "",
+			"method": "POST",
+			"body": {
+				"mimeType": "application/json",
+				"text": "{}"
+			},
+			"parameters": [],
+			"headers": [
+				{
+					"name": "Token",
+					"value": "6cfcbc64-0dfe-45b1-b860-5a0aef7ac829",
+					"id": "pair_30ce581880dc4f1d8808eef31b356dad"
+				},
+				{
+					"name": "CompanyCode",
+					"value": "boshop",
+					"id": "pair_1733d9460a8d4d3fac8da2cec4efa98f"
+				},
+				{
+					"name": "BranchID",
+					"value": "7259EA8D-9FFA-49FF-887E-701FED292F13",
+					"id": "pair_b67c54d478484ff5b85f3a3980a34289"
+				}
+			],
+			"authentication": {
+				"username": "",
+				"password": ""
+			},
+			"metaSortKey": -1506407638176.5,
+			"settingStoreCookies": true,
+			"settingSendCookies": true,
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"_type": "request"
+		},
+		{
+			"_id": "req_662ac8cd576f478ea6d7ed107fba18f0",
+			"parentId": "fld_9fa7eb38028747c8979651ea8c616617",
+			"modified": 1511256761870,
+			"created": 1511256757879,
+			"url": "localhost:8000/resetbranchinfo",
+			"name": "resetbranchinfo",
+			"description": "",
+			"method": "POST",
+			"body": {
+				"mimeType": "application/json",
+				"text": "{}"
+			},
+			"parameters": [],
+			"headers": [
+				{
+					"name": "Token",
+					"value": "6cfcbc64-0dfe-45b1-b860-5a0aef7ac829",
+					"id": "pair_30ce581880dc4f1d8808eef31b356dad"
+				},
+				{
+					"name": "CompanyCode",
+					"value": "boshop",
+					"id": "pair_1733d9460a8d4d3fac8da2cec4efa98f"
+				},
+				{
+					"name": "BranchID",
+					"value": "7259EA8D-9FFA-49FF-887E-701FED292F13",
+					"id": "pair_b67c54d478484ff5b85f3a3980a34289"
+				}
+			],
+			"authentication": {
+				"username": "",
+				"password": ""
+			},
+			"metaSortKey": -1506407638176.25,
+			"settingStoreCookies": true,
+			"settingSendCookies": true,
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"_type": "request"
+		},
+		{
+			"_id": "req_a1a7e9cb60384f298ae9b7425c9fca48",
+			"parentId": "fld_9fa7eb38028747c8979651ea8c616617",
+			"modified": 1511419239285,
+			"created": 1511333239365,
+			"url": "localhost:8000/bot",
+			"name": "bot (Copy)",
+			"description": "",
+			"method": "GET",
+			"body": {
+				"mimeType": "application/json",
+				"text": "{}"
+			},
+			"parameters": [
+				{
+					"name": "message",
+					"value": "em tên gì",
+					"id": "pair_3f5e0e9ee5e64945a0a78c396c40ca8e"
+				}
+			],
+			"headers": [
+				{
+					"name": "Token",
+					"value": "6cfcbc64-0dfe-45b1-b860-5a0aef7ac829",
+					"id": "pair_30ce581880dc4f1d8808eef31b356dad"
+				},
+				{
+					"name": "CompanyCode",
+					"value": "liemqv",
+					"id": "pair_1733d9460a8d4d3fac8da2cec4efa98f"
+				},
+				{
+					"name": "BranchID",
+					"value": "994c6fe5-da83-441b-a0e8-57a6fed98fb2",
+					"id": "pair_b67c54d478484ff5b85f3a3980a34289"
+				}
+			],
+			"authentication": {
+				"username": "",
+				"password": ""
+			},
+			"metaSortKey": -1506407638177.5,
+			"settingStoreCookies": true,
+			"settingSendCookies": true,
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"_type": "request"
+		},
+		{
+			"_id": "req_ede8867168854b0b86a781fe252993bb",
+			"parentId": "fld_3d8ac8d0d2ab4904a1e61f6e985e196b",
+			"modified": 1511950978028,
+			"created": 1511315572199,
+			"url": "localhost:12000/bot",
+			"name": "bot",
+			"description": "",
+			"method": "GET",
+			"body": {
+				"mimeType": "application/json",
+				"text": "{}"
+			},
+			"parameters": [
+				{
+					"name": "message",
+					"value": "bán hàng tốt không em",
+					"id": "pair_8036afdbe5a44cd482a03c73f3abd3fe"
+				}
+			],
+			"headers": [
+				{
+					"name": "Content-Type",
+					"value": "application/json",
+					"id": "pair_b476aea90c0e4d219121a2119bb25064"
+				},
+				{
+					"name": "branchid",
+					"value": "00000000-0000-0000-0000-000000000000",
+					"id": "pair_64a4cd1cc89b468ba0ea802417c3e285"
+				},
+				{
+					"name": "companycode",
+					"value": "democomngon",
+					"id": "pair_a25dea547b8e49eb8ec8dba66090118c"
+				}
+			],
+			"authentication": {
+				"username": "",
+				"password": ""
+			},
+			"metaSortKey": -1508128188064,
+			"settingStoreCookies": true,
+			"settingSendCookies": true,
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"_type": "request"
+		}
+	]
+}
