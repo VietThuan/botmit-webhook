@@ -1,0 +1,4 @@
+có những ai sinh nhật			Em không có thông tin gì anh/chị ạ.
+có			chúc mừng sinh nhật em! Chúc em luôn mạnh khỏe, hạnh phúc và luôn thành công trong công việc. Anh/chị muốn sử dụng mẫu này không?
+có mẫu tin			*Hiển thị mẫu tin đã lưu trước phù hợp* Anh/chị có muốn sử dụng mẫu tin nhắn X không ạ?
+có			em sẽ gửi tin #SN-GUI_TIN_NHAN_CUSTOM.loi_chuc

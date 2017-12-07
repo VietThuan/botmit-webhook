@@ -1,0 +1,14 @@
+có những ai sinh nhật			Em không có thông tin gì anh/chị ạ.
+có			chúc mừng sinh nhật em! Chúc em luôn mạnh khỏe, hạnh phúc và luôn thành công trong công việc. Anh/chị muốn sử dụng mẫu này không?
+chưa có mẫu tin			Em có sẵn rất nhiều tin nhắn mẫu. Anh/chị có muốn sử dụng không ạ?
+không			Anh/chị muốn chúc gì để em ghi lại ạ?
+Chúc mừng sinh nhật			Anh/chị muốn chúc gì để em ghi lại ạ?
+nắng			Em đã ghi lại nội dung lời chúc của anh/chị. Anh/chị vui lòng kt lại được chưa ạ? Anh/chị có thể sửa trực tiếp nội dung. nắng
+gió			Dạ thưa, anh/chị nói gì em không hiểu ạ.
+mây			Xin lỗi, em không hiểu anh/chị muốn nói gì ạ.
+trời			Dạ thưa, anh/chị nói gì em không hiểu ạ.
+cỏ			Xin lỗi anh/chị, em chưa hiểu anh chị nói gì ạ.
+cây			Dạ thưa, anh/chị nói gì em không hiểu ạ.
+hoa			Xin lỗi, em không hiểu anh/chị muốn nói gì ạ.
+lá			Xin lỗi anh/chị, em chưa hiểu anh chị nói gì ạ.
+chưa được			Xin lỗi, em không hiểu anh/chị muốn nói gì ạ.
