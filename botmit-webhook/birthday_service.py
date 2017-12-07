@@ -23,11 +23,15 @@ class BirthdayService:
 
         # Goi toi service cua AMIS
         url = "https://testapicfo.amis.vn/api/GetBirthdayEmployee"
-        payload = "{\n  \"Token\": \"" + token + "\",\n  \"UserID\": \"" + user_id +"\",\n  \"OrganizationUnitID\": \"" + orgid + "\",\n  \"CompanyCode\": \""+ com_code +"\"\n}"
+        # payload = "{\n  \"Token\": \"" + token + "\",\n  \"UserID\": \"" + user_id +"\",\n  \"OrganizationUnitID\": \"" + orgid + "\",\n  \"CompanyCode\": \""+ com_code +"\"\n}"
+        payload = "{\n  \"Token\": \"55F87A13-2416-4D8E-8B42-903FC6C07DD5\",\n  \"UserID\": \"8E5FD60E-B93F-4595-8027-B9DE55B2DE87\",\n  \"OrganizationUnitID\": \"00000000-0000-0000-0000-000000000000\",\n  \"CompanyCode\": \"misajsc\"\n}"
+
         headers = {'content-type': 'application/json'}
         response = requests.request("POST", url, data=payload, headers=headers)
         obj = json.loads(response.text)
         list = json.loads(obj['Data'])
+        list += list
+        print(len(list))
         print(list)
 
         return list

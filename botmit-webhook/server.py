@@ -39,9 +39,15 @@ service = BirthdayService()
 
 CLIENT_ACCESS_TOKEN = '7093eea13b024b409f77dd7bc4929662'
 
-tra_loi_sinh_nhat = """Thưa {get_customer_prefix_name}, hôm nay là sinh nhật anh/chị {name} - {depart}, \
+tra_loi_sinh_nhat_mot_nguoi = """Thưa {get_customer_prefix_name}, hôm nay là sinh nhật anh/chị {name} - {depart}, \
 {get_customer_prefix_name} có muốn gửi lời chúc đến nhân viên này không ạ?
 """
+
+tra_loi_sinh_nhat_khong_qua_sau_nguoi = """Thưa {get_customer_prefix_name}, hôm nay là sinh nhật {num_employees} nhân viên. \
+Đó là: {list_employees}, {get_customer_prefix_name} có muốn gửi lời chúc đến tất cả hay nhân viên nào không ạ?"""
+
+tra_loi_sinh_nhat_tren_sau_nguoi = """Thưa {get_customer_prefix_name}, hôm nay là sinh nhật {num_employees} nhân viên. \
+Đó là: {list_employees}. Còn {num_employees_else} nhân viên, {get_customer_prefix_name} có muốn hiển thị hết không ạ?"""
 
 
 def get_param_user_info(req):
@@ -104,18 +110,36 @@ def lay_danh_sach_nguoi_sinh_nhat(action, req):
     com_code, user_id, orgid = get_param_user_info(req)
     list_birthday = service.get_list_birthday(com_code, user_id, orgid)
 
-    # if len(list_birthday) == 0:
-    #     req['result']['fulfillment']['speech'] = 'hom nay khong co sinh nhat ai'
-    # elif len(list_birthday) != 1:
-    #     req['result']['fulfillment']['speech'] = 'co nhieu nguoi sinh nhat qua'
-    # else:
-    #     req['result']['fulfillment']['speech'] = pycommon.keymap_replace(tra_loi_sinh_nhat,
-    #                                                                      {"name": list_birthday[0]['FullName'],
-    #                                                                       "depart": list_birthday[0]['OrganizationUnitMapPath']})
+    if len(list_birthday) == 0:
+        req['result']['fulfillment']['speech'] = 'hom nay khong co sinh nhat ai'
+    elif len(list_birthday) == 1:
+        req['result']['fulfillment']['speech'] = pycommon.keymap_replace(tra_loi_sinh_nhat_mot_nguoi,
+                                                                         {"name": list_birthday[0]['FullName'],
+                                                                          "depart": list_birthday[0]['OrganizationUnitMapPath']})
+    elif len(list_birthday) > 6:                #TH có trên 6 nhân viên
+        list_employees = ""
+        print (len(list_birthday))
+        for i in range (0,5):
+            list_employees += " " + str(i+1) + ". Nhân viên " +  list_birthday[i]['FullName'] + " - "  + \
+                              list_birthday[i]['OrganizationUnitMapPath']
 
-    req['result']['fulfillment']['speech'] = pycommon.keymap_replace(tra_loi_sinh_nhat,
-                                                                     {"name": list_birthday[0]['FullName'],
-                                                                      "depart": list_birthday[0]['OrganizationUnitMapPath']})
+        req['result']['fulfillment']['speech'] = pycommon.keymap_replace(tra_loi_sinh_nhat_tren_sau_nguoi,
+                                                                         {"num_employees": len(list_birthday),
+                                                                          "list_employees": list_employees,
+                                                                           "num_employees_else": len(list_birthday)-5})
+
+    elif len(list_birthday) > 1:                #TH co tu 2-6 nhân viên
+
+        list_employees = ""
+        print (len(list_birthday))
+        for i in range (0,len(list_birthday)):
+            list_employees += " " + str(i+1) + ". Nhân viên " +  list_birthday[i]['FullName'] + " - "  + \
+                                                                list_birthday[i]['OrganizationUnitMapPath']
+
+        req['result']['fulfillment']['speech'] = pycommon.keymap_replace(tra_loi_sinh_nhat_khong_qua_sau_nguoi,
+                                                                         {"num_employees": len(list_birthday),
+                                                                          "list_employees": list_employees})
+
     return req
 
 
@@ -137,7 +161,9 @@ def webhook():
             req = action_resolve[action](action, req)
     except:
         print(traceback.format_exc())
+    req['result']['fulfillment']['messages'][0]['speech'] = req['result']['fulfillment']['speech']
     print(json.dumps(req['result']['contexts'], indent=4))
+
     return jsonify(req['result']['fulfillment'])
 
 
