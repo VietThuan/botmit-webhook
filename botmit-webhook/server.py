@@ -54,7 +54,7 @@ def get_param_user_info(req):
     return com_code, user_id, orgid
 
 
-def process_queue(session_id):
+def process_queue_when_remember_mess(session_id):       # Khi hệ thống ghi nhớ có mẫu tin nhắn
     import time
     time.sleep(1)
     s = 'curl \
@@ -63,7 +63,7 @@ def process_queue(session_id):
     repaced = s.format(CLIENT_ACCESS_TOKEN, 'event_co_mau_tin', session_id)
     print(pycommon.execute_curl(repaced))
 
-def un_process_queue(session_id):
+def process_queue_when_no_mess(session_id):   # Khi hệ thống CHƯA ghi nhớ có mẫu tin nhắn
     import time
     time.sleep(1)
     s = 'curl \
@@ -74,25 +74,25 @@ def un_process_queue(session_id):
 
 
 
-def hoi_sinh_nhat_co(action, req):                                                  #G
+def hoi_sinh_nhat_co(action, req):
     com_code, user_id, orgid = get_param_user_info(req)
     lasted_mesage = service.get_lasted_birthday_message(com_code, user_id, orgid)
     if lasted_mesage is None:
 
-# Binh code
+        # Binh code
 
-        t = threading.Thread(target=un_process_queue, args=(req['sessionId'],))
+        t = threading.Thread(target=process_queue_when_no_mess, args=(req['sessionId'],))
         t.daemon = True
         t.start()
 
         req['result']['fulfillment']['speech'] = "Em có sẵn rất nhiều tin nhắn mẫu. Anh/chị có muốn sử dụng không ạ?"
         return req
 
-# End Binh code
+    # End Binh code
 
     else:
 
-        t = threading.Thread(target=process_queue, args=(req['sessionId'],))
+        t = threading.Thread(target=process_queue_when_remember_mess, args=(req['sessionId'],))
         t.daemon = True
         t.start()
 
@@ -104,14 +104,18 @@ def lay_danh_sach_nguoi_sinh_nhat(action, req):
     com_code, user_id, orgid = get_param_user_info(req)
     list_birthday = service.get_list_birthday(com_code, user_id, orgid)
 
-    if len(list_birthday) == 0:
-        req['result']['fulfillment']['speech'] = 'hom nay khong co sinh nhat ai'
-    elif len(list_birthday) != 1:
-        req['result']['fulfillment']['speech'] = 'co nhieu nguoi sinh nhat qua'
-    else:
-        req['result']['fulfillment']['speech'] = pycommon.keymap_replace(tra_loi_sinh_nhat,
-                                                                         {"name": list_birthday[0]['Name'],
-                                                                          "depart": list_birthday[0]['DepartmentName']})
+    # if len(list_birthday) == 0:
+    #     req['result']['fulfillment']['speech'] = 'hom nay khong co sinh nhat ai'
+    # elif len(list_birthday) != 1:
+    #     req['result']['fulfillment']['speech'] = 'co nhieu nguoi sinh nhat qua'
+    # else:
+    #     req['result']['fulfillment']['speech'] = pycommon.keymap_replace(tra_loi_sinh_nhat,
+    #                                                                      {"name": list_birthday[0]['FullName'],
+    #                                                                       "depart": list_birthday[0]['OrganizationUnitMapPath']})
+
+    req['result']['fulfillment']['speech'] = pycommon.keymap_replace(tra_loi_sinh_nhat,
+                                                                     {"name": list_birthday[0]['FullName'],
+                                                                      "depart": list_birthday[0]['OrganizationUnitMapPath']})
     return req
 
 
