@@ -1,9 +1,0 @@
-có những ai sinh nhật			Em không có thông tin gì anh/chị ạ.
-có			chúc mừng sinh nhật em! Chúc em luôn mạnh khỏe, hạnh phúc và luôn thành công trong công việc. Anh/chị muốn sử dụng mẫu này không?
-chưa có mẫu			Em có sẵn rất nhiều tin nhắn mẫu. Anh/chị có muốn sử dụng không ạ?
-có			em sẽ gửi tin #SN-GUI_TIN_NHAN_CUSTOM.loi_chuc
-tự soạn			Xin lỗi anh/chị, em chưa hiểu anh chị nói gì ạ.
-chúc em sinh nhật vui vẻ			Xin lỗi, em không hiểu anh/chị muốn nói gì ạ.
-chưa được			em sẽ gửi tin #SN-GUI_TIN_NHAN_CUSTOM.loi_chuc
-chúc em snvv			em sẽ gửi tin #SN-GUI_TIN_NHAN_CUSTOM.loi_chuc
-ok			Dạ thưa, anh/chị nói gì em không hiểu ạ.

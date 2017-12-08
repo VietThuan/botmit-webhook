@@ -30,7 +30,7 @@ class BirthdayService:
         response = requests.request("POST", url, data=payload, headers=headers)
         obj = json.loads(response.text)
         list = json.loads(obj['Data'])
-        list += list
+        # list += list
         print(len(list))
         print(list)
 

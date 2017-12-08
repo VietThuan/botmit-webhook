@@ -43,12 +43,14 @@ tra_loi_sinh_nhat_mot_nguoi = """Thưa {get_customer_prefix_name}, hôm nay là 
 {get_customer_prefix_name} có muốn gửi lời chúc đến nhân viên này không ạ?
 """
 
-tra_loi_sinh_nhat_khong_qua_sau_nguoi = """Thưa {get_customer_prefix_name}, hôm nay là sinh nhật {num_employees} nhân viên. \
+tra_loi_sinh_nhat_khong_qua_nam_nguoi = """Thưa {get_customer_prefix_name}, hôm nay là sinh nhật {num_employees} nhân viên. \
 Đó là: {list_employees}, {get_customer_prefix_name} có muốn gửi lời chúc đến tất cả hay nhân viên nào không ạ?"""
 
-tra_loi_sinh_nhat_tren_sau_nguoi = """Thưa {get_customer_prefix_name}, hôm nay là sinh nhật {num_employees} nhân viên. \
+tra_loi_sinh_nhat_tren_nam_nguoi = """Thưa {get_customer_prefix_name}, hôm nay là sinh nhật {num_employees} nhân viên. \
 Đó là: {list_employees}. Còn {num_employees_else} nhân viên, {get_customer_prefix_name} có muốn hiển thị hết không ạ?"""
 
+tra_loi_sinh_nhat_so_nguoi_con_lai = """Còn có: {list_employees_else}, {get_customer_prefix_name} có muốn gửi lời chúc \
+đến những nhân viên sinh nhật hôm nay không ạ?"""
 
 def get_param_user_info(req):
     com_code, user_id, orgid = None, None, None
@@ -58,6 +60,15 @@ def get_param_user_info(req):
                                        v['parameters']['organizationUnitID']
 
     return com_code, user_id, orgid
+
+def process_queue_when_more_than_5_employees(session_id):   # Khi hệ thống CHƯA ghi nhớ có mẫu tin nhắn
+    import time
+    time.sleep(1)
+    s = 'curl \
+           -H "Authorization: Bearer {}" \
+           "https://api.dialogflow.com/v1/query?v=20150910&e={}&timezone=Asia/Saigon&lang=en&sessionId={}"'
+    repaced = s.format(CLIENT_ACCESS_TOKEN, 'event_sn_nhieuhon5', session_id)
+    print(pycommon.execute_curl(repaced))
 
 
 def process_queue_when_remember_mess(session_id):       # Khi hệ thống ghi nhớ có mẫu tin nhắn
@@ -116,19 +127,24 @@ def lay_danh_sach_nguoi_sinh_nhat(action, req):
         req['result']['fulfillment']['speech'] = pycommon.keymap_replace(tra_loi_sinh_nhat_mot_nguoi,
                                                                          {"name": list_birthday[0]['FullName'],
                                                                           "depart": list_birthday[0]['OrganizationUnitMapPath']})
-    elif len(list_birthday) > 6:                #TH có trên 6 nhân viên
+    elif len(list_birthday) > 5:                #TH có trên 5 nhân viên
         list_employees = ""
         print (len(list_birthday))
         for i in range (0,5):
             list_employees += " " + str(i+1) + ". Nhân viên " +  list_birthday[i]['FullName'] + " - "  + \
                               list_birthday[i]['OrganizationUnitMapPath']
 
-        req['result']['fulfillment']['speech'] = pycommon.keymap_replace(tra_loi_sinh_nhat_tren_sau_nguoi,
+
+        t = threading.Thread(target=process_queue_when_more_than_5_employees, args=(req['sessionId'],))
+        t.daemon = True
+        t.start()
+
+        req['result']['fulfillment']['speech'] = pycommon.keymap_replace(tra_loi_sinh_nhat_tren_nam_nguoi,
                                                                          {"num_employees": len(list_birthday),
                                                                           "list_employees": list_employees,
                                                                            "num_employees_else": len(list_birthday)-5})
 
-    elif len(list_birthday) > 1:                #TH co tu 2-6 nhân viên
+    elif len(list_birthday) > 1:                #TH co tu 2-5 nhân viên
 
         list_employees = ""
         print (len(list_birthday))
@@ -136,16 +152,32 @@ def lay_danh_sach_nguoi_sinh_nhat(action, req):
             list_employees += " " + str(i+1) + ". Nhân viên " +  list_birthday[i]['FullName'] + " - "  + \
                                                                 list_birthday[i]['OrganizationUnitMapPath']
 
-        req['result']['fulfillment']['speech'] = pycommon.keymap_replace(tra_loi_sinh_nhat_khong_qua_sau_nguoi,
+        req['result']['fulfillment']['speech'] = pycommon.keymap_replace(tra_loi_sinh_nhat_khong_qua_nam_nguoi,
                                                                          {"num_employees": len(list_birthday),
                                                                           "list_employees": list_employees})
 
     return req
 
+def show_employees_else(action, req):
+    com_code, user_id, orgid = get_param_user_info(req)
+    list_birthday = service.get_list_birthday(com_code, user_id, orgid)
+    list_employees_else = ""
+    for i in range (5,len(list_birthday)):
+        list_employees_else += " " + str(i+1) + ". Nhân viên " +  list_birthday[i]['FullName'] + " - "  + \
+                          list_birthday[i]['OrganizationUnitMapPath']
+
+    req['result']['fulfillment']['speech'] = pycommon.keymap_replace(tra_loi_sinh_nhat_so_nguoi_con_lai,
+                                                                     {"list_employees_else": list_employees_else})
+
+    return req
+
+
 
 action_resolve = {
     "input.lay_danh_sach_nguoi_sinh_nhat": lay_danh_sach_nguoi_sinh_nhat,
-    "input.hoi_sinh_nhat_co": hoi_sinh_nhat_co
+    "input.hoi_sinh_nhat_co": hoi_sinh_nhat_co,
+    "SN_NHIEU_HON_1NV_CHUC_MUNG_ALL":hoi_sinh_nhat_co,
+    "SN_NHIEUHON5.SN_HOI_SINH_NHAT-NhieuHon5-yes": show_employees_else
 }
 
 

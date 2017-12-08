@@ -1,7 +1,0 @@
-có những ai sinh nhật			Em không có thông tin gì anh/chị ạ.
-có			chúc mừng sinh nhật em! Chúc em luôn mạnh khỏe, hạnh phúc và luôn thành công trong công việc. Anh/chị muốn sử dụng mẫu này không?
-chưa có mẫu			Em có sẵn rất nhiều tin nhắn mẫu. Anh/chị có muốn sử dụng không ạ?
-có			Em có ... mẫu tin nhắn, anh/chị muốn dùng mẫu mấy?
-tự soạn			Anh/chị muốn chúc gì để em ghi lại ạ?
-chúc mừng sinh nhật em			Anh/chị muốn chúc gì để em ghi lại ạ?
-ok			Em đã ghi lại nội dung lời chúc của anh/chị. Anh/chị vui lòng kt lại được chưa ạ? Anh/chị có thể sửa trực tiếp nội dung. ok

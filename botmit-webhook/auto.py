@@ -33,9 +33,10 @@ def query(q,ssID):
 
 
 def process_file(file, out):
+    import uuid
     import csv
     lines = csv.reader(open(file, newline=''))
-    ssID = file[5:-4]
+    ssID = uuid.uuid4()
     with open(out, "w") as text_file:
         for v in lines:
             if len(v) == 0 or len(v[0]) == 0:
@@ -51,10 +52,11 @@ def process_file(file, out):
                 print("    ==>" + str(ret))
                 print("{}\t\t\t{}".format(v, str(ret)), file=text_file)
 
+name_folder = "nhieu_hon_5"
 
-for file in os.listdir("test"):
+for file in os.listdir(name_folder):
     if file.endswith(".txt"):
         out_file = file[0:-4] + "_out.txt"
-        process_file(os.path.join("test", file), os.path.join("test", out_file))
+        process_file(os.path.join(name_folder, file), os.path.join(name_folder, out_file))
 
 
