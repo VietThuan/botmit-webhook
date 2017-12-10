@@ -50,6 +50,9 @@ class BirthdayService:
             response_text = response.text
             obj = json.loads(response.text)
             list = json.loads(obj['Data'])
+            if __debug__:
+                # list.append(list[:3])
+                list = list[:3]
             return list
         except Exception as ex:
             logging.error("Error when call {} input {} output {} exception: {}".

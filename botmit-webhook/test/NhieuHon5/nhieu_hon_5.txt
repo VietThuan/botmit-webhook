@@ -1,0 +1,17 @@
+hôm nay có sinh nhật ai
+có
+có
+chúc mừng sinh nhật mọi người
+#end
+hôm nay có sinh nhật ai
+không
+có
+chúc mừng sinh nhật mọi người
+#end
+hôm nay có sinh nhật ai
+có
+không
+#end
+hôm nay có sinh nhật ai
+không
+không
